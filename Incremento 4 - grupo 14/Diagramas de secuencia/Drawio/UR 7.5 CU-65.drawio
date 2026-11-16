@@ -1,0 +1,782 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Flujo General" id="FlujoGeneral">
+    <mxGraphModel dx="1376" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FlujoGeneral-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1542" width="2615" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-65: Comparando proveedores&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="600" x="1317.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle_Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1432" width="200" x="605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-19" parent="FlujoGeneral-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1252" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1432" width="200" x="1035" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-18" parent="FlujoGeneral-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1148" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1432" width="200" x="1425" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-14" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="258" width="10" x="95" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-17" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="202" width="10" x="95" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1432" width="200" x="1765" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-12" parent="FlujoGeneral-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1432" width="200" x="2065" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-13" parent="FlujoGeneral-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1432" width="200" x="2365" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-15" parent="FlujoGeneral-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote_Fecha_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1432" width="200" x="2665" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-16" parent="FlujoGeneral-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="778" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-20" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1278" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita la comparación de proveedores&lt;br&gt;para el producto seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="700" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la comparativa de&lt;br&gt;proveedores del material seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="596" as="sourcePoint" />
+            <mxPoint x="1130" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="634" as="sourcePoint" />
+            <mxPoint x="1520" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener los proveedores vinculados al material con su&amp;nbsp;&lt;div&gt;precio referencial neto vigente, su tiempo de reposición&lt;br&gt;prometido y su cantidad mínima&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="714" as="sourcePoint" />
+            <mxPoint x="1860" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar varios proveedores&lt;br&gt;asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="766" as="sourcePoint" />
+            <mxPoint x="1530" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener la razón social de cada proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="804" as="sourcePoint" />
+            <mxPoint x="2160" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar los datos de los proveedores">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2160" y="842" as="sourcePoint" />
+            <mxPoint x="1530" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="880" as="sourcePoint" />
+            <mxPoint x="1140" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-29" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="9. Verificar que el material tenga proveedores asociados">
+          <mxGeometry relative="1" x="0.0203" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="904" />
+              <mxPoint x="1265" y="950" />
+            </Array>
+            <mxPoint x="1140" y="904" as="sourcePoint" />
+            <mxPoint x="1140" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-30" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar que el material tenga&lt;br&gt;más de un proveedor para permitir la comparación">
+          <mxGeometry relative="1" x="-0.0387" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="976" />
+              <mxPoint x="1265" y="1036" />
+            </Array>
+            <mxPoint x="1140" y="976" as="sourcePoint" />
+            <mxPoint x="1140" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Consultar por cada proveedor su&lt;br&gt;historial de entregas de este producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="1090" as="sourcePoint" />
+            <mxPoint x="1520" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="12. Obtener los lotes recibidos de cada proveedor con su fecha de recepción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="1128" as="sourcePoint" />
+            <mxPoint x="2460" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="13. Retornar el historial de entregas de cada proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="1166" as="sourcePoint" />
+            <mxPoint x="1530" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="14. Obtener la fecha de pedido de cada lote recibido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="1204" as="sourcePoint" />
+            <mxPoint x="2760" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="15. Retornar las fechas de pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2760" y="1242" as="sourcePoint" />
+            <mxPoint x="1530" y="1242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Entregar el historial de entregas de cada proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1280" as="sourcePoint" />
+            <mxPoint x="1140" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-37" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="17. Verificar que todos los proveedores tengan precio&amp;nbsp;&lt;div&gt;vigente e historial de entregas&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0258" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="1304" />
+              <mxPoint x="1265" y="1364" />
+            </Array>
+            <mxPoint x="1140" y="1304" as="sourcePoint" />
+            <mxPoint x="1140" y="1364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-38" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="18. Calcular por cada proveedor el tiempode entrega real promedio&lt;div&gt;&amp;nbsp;y el porcentajede cumplimiento contra el tiempo prometido&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0185" y="55" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="1390" />
+              <mxPoint x="1265" y="1464" />
+            </Array>
+            <mxPoint x="1140" y="1390" as="sourcePoint" />
+            <mxPoint x="1140" y="1464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-39" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="19. Destacar la opción de menor costo y la de menor tiempo de entrega real">
+          <mxGeometry relative="1" y="65" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="1490" />
+              <mxPoint x="1265" y="1550" />
+            </Array>
+            <mxPoint x="1140" y="1490" as="sourcePoint" />
+            <mxPoint x="1140" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-40" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="20. Verificar el rol del usuario">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265" y="1576" />
+              <mxPoint x="1265" y="1650" />
+            </Array>
+            <mxPoint x="1140" y="1576" as="sourcePoint" />
+            <mxPoint x="1140" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="21. Retornar la tabla comparativa con nombre del proveedor, precio unitario neto,&amp;nbsp;&lt;div&gt;tiempo de reposición prometido, tiempo real promedio, porcentaje de&lt;br&gt;cumplimiento y cantidad mínima de pedido&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1732" as="sourcePoint" />
+            <mxPoint x="710" y="1732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="22. Despliega la comparativa con la opción más&lt;br&gt;conveniente destacada por costo y por plazo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1784" as="sourcePoint" />
+            <mxPoint x="370" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 1" id="Excepcion1">
+    <mxGraphModel dx="1651" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1080" width="2615" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-65: Comparando proveedores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="1317.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle_Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="970" width="200" x="605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-18" parent="Excepcion1-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="790" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="970" width="200" x="1035" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-17" parent="Excepcion1-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="672" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="970" width="200" x="1425" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-14" parent="Excepcion1-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="258" width="10" x="95" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-16" parent="Excepcion1-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="126" width="10" x="95" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="970" width="200" x="1765" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-12" parent="Excepcion1-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="970" width="200" x="2065" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-13" parent="Excepcion1-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote&lt;/u&gt;" vertex="1">
+          <mxGeometry height="970" width="200" x="2365" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-15" parent="Excepcion1-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote_Fecha_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="970" width="200" x="2665" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-19" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="816" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita la comparación de proveedores&lt;br&gt;para el producto seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="700" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la comparativa de&lt;br&gt;proveedores del material seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="596" as="sourcePoint" />
+            <mxPoint x="1130" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="634" as="sourcePoint" />
+            <mxPoint x="1520" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener los proveedores vinculados al material con su&amp;nbsp;&lt;div&gt;precio referencial neto vigente, su tiempo de reposición&lt;br&gt;prometido y su cantidad mínima&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="714" as="sourcePoint" />
+            <mxPoint x="1860" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar un único proveedor&lt;br&gt;asociado al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="766" as="sourcePoint" />
+            <mxPoint x="1530" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener la razón social de cada proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="804" as="sourcePoint" />
+            <mxPoint x="2160" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar los datos de los proveedores">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2160" y="842" as="sourcePoint" />
+            <mxPoint x="1530" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="880" as="sourcePoint" />
+            <mxPoint x="1140" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-28" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="9. Verificar que el material tenga proveedores asociados">
+          <mxGeometry relative="1" x="0.0203" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="904" />
+              <mxPoint x="1265" y="950" />
+            </Array>
+            <mxPoint x="1140" y="904" as="sourcePoint" />
+            <mxPoint x="1140" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-29" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar la cantidad de proveedores y detecta que el material&lt;br&gt;tiene un único proveedor asociado">
+          <mxGeometry relative="1" x="0.0258" y="35" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="976" />
+              <mxPoint x="1265" y="1036" />
+            </Array>
+            <mxPoint x="1140" y="976" as="sourcePoint" />
+            <mxPoint x="1140" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Consultar el historial de&lt;br&gt;entregas de ese único proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="1090" as="sourcePoint" />
+            <mxPoint x="1520" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="12. Obtener los lotes recibidos del proveedor con su fecha de recepción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="1128" as="sourcePoint" />
+            <mxPoint x="2460" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="13. Retornar el historial de entregas del proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="1166" as="sourcePoint" />
+            <mxPoint x="1530" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="14. Entregar la ficha del único proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1204" as="sourcePoint" />
+            <mxPoint x="1140" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="15. Retornar la ficha del proveedor, sin destaques,&lt;br&gt;junto al aviso de que no hay alternativas para comparar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1256" as="sourcePoint" />
+            <mxPoint x="710" y="1256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Muestra la ficha del proveedor e informa que no hay&amp;nbsp;&lt;div&gt;alternativas suficientes para realizar la comparación&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1322" as="sourcePoint" />
+            <mxPoint x="370" y="1322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 2" id="Excepcion2">
+    <mxGraphModel dx="1376" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="828" width="2615" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-65: Comparando proveedores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="1317.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle_Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="718" width="200" x="605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-16" parent="Excepcion2-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="538" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="718" width="200" x="1035" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-15" parent="Excepcion2-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="420" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="718" width="200" x="1425" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-14" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="258" width="10" x="95" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="718" width="200" x="1765" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-12" parent="Excepcion2-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="718" width="200" x="2065" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-13" parent="Excepcion2-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote&lt;/u&gt;" vertex="1">
+          <mxGeometry height="718" width="200" x="2365" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote_Fecha_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="718" width="200" x="2665" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-17" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="564" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita la comparación de proveedores&lt;br&gt;para el producto seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="700" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la comparativa de&lt;br&gt;proveedores del material seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="596" as="sourcePoint" />
+            <mxPoint x="1130" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="634" as="sourcePoint" />
+            <mxPoint x="1520" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener los proveedores vinculados al material con su&amp;nbsp;&lt;div&gt;precio referencial neto vigente, su tiempo de reposición&lt;br&gt;prometido y su cantidad mínima&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="714" as="sourcePoint" />
+            <mxPoint x="1860" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar que el material no&lt;br&gt;tiene proveedores asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="766" as="sourcePoint" />
+            <mxPoint x="1530" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener la razón social de cada proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="804" as="sourcePoint" />
+            <mxPoint x="2160" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar los datos de los proveedores">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2160" y="842" as="sourcePoint" />
+            <mxPoint x="1530" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="880" as="sourcePoint" />
+            <mxPoint x="1140" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-26" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="9. Verificar los proveedores del material y&lt;br&gt;detecta que no tiene ninguno asociado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265" y="904" />
+              <mxPoint x="1265" y="950" />
+            </Array>
+            <mxPoint x="1140" y="904" as="sourcePoint" />
+            <mxPoint x="1140" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="10. Retornar el aviso de material sin proveedores&lt;br&gt;junto con la sugerencia de vincular uno">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1004" as="sourcePoint" />
+            <mxPoint x="710" y="1004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="11. Informa que no hay proveedores registrados para el&amp;nbsp;&lt;div&gt;producto y sugiere vincular uno&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1070" as="sourcePoint" />
+            <mxPoint x="370" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 3" id="Excepcion3">
+    <mxGraphModel dx="1942" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1642" width="2615" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-65: Comparando proveedores&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="1317.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle_Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1532" width="200" x="605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-19" parent="Excepcion3-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1352" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1532" width="200" x="1035" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-18" parent="Excepcion3-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1220" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1532" width="200" x="1425" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-14" parent="Excepcion3-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="258" width="10" x="95" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-17" parent="Excepcion3-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="202" width="10" x="95" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1532" width="200" x="1765" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-12" parent="Excepcion3-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1532" width="200" x="2065" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-13" parent="Excepcion3-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1532" width="200" x="2365" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-15" parent="Excepcion3-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote_Fecha_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1532" width="200" x="2665" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-16" parent="Excepcion3-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="778" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-20" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1378" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita la comparación de proveedores&lt;br&gt;para el producto seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="700" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la comparativa de&lt;br&gt;proveedores del material seleccionado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="596" as="sourcePoint" />
+            <mxPoint x="1130" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="634" as="sourcePoint" />
+            <mxPoint x="1520" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener los proveedores vinculados al material con su&amp;nbsp;&lt;div&gt;precio referencial neto vigente, su tiempo de reposición&lt;br&gt;prometido y su cantidad mínima&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="714" as="sourcePoint" />
+            <mxPoint x="1860" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar varios proveedores&lt;br&gt;asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="766" as="sourcePoint" />
+            <mxPoint x="1530" y="766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener la razón social de cada proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="804" as="sourcePoint" />
+            <mxPoint x="2160" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar los datos de los proveedores">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2160" y="842" as="sourcePoint" />
+            <mxPoint x="1530" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar los proveedores asociados al material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="880" as="sourcePoint" />
+            <mxPoint x="1140" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-29" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="9. Verificar que el material tenga&lt;br&gt;proveedores asociados">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265" y="904" />
+              <mxPoint x="1265" y="950" />
+            </Array>
+            <mxPoint x="1140" y="904" as="sourcePoint" />
+            <mxPoint x="1140" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-30" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar que el material tenga&lt;br&gt;más de un proveedor para permitir la comparación">
+          <mxGeometry relative="1" x="0.0258" y="45" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="976" />
+              <mxPoint x="1265" y="1036" />
+            </Array>
+            <mxPoint x="1140" y="976" as="sourcePoint" />
+            <mxPoint x="1140" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Consultar por cada proveedor su&lt;br&gt;historial de entregas de este producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="1090" as="sourcePoint" />
+            <mxPoint x="1520" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="12. Obtener los lotes recibidos de cada proveedor con su fecha de recepción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="1128" as="sourcePoint" />
+            <mxPoint x="2460" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="13. Retornar el historial de entregas y uno o más proveedores no registran entregas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="1166" as="sourcePoint" />
+            <mxPoint x="1530" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="14. Obtener la fecha de pedido de cada lote recibido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="1204" as="sourcePoint" />
+            <mxPoint x="2760" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="15. Retornar las fechas de pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2760" y="1242" as="sourcePoint" />
+            <mxPoint x="1530" y="1242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Entregar el historial de entregas de cada proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1280" as="sourcePoint" />
+            <mxPoint x="1140" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-37" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="17. Verificar los datos de cada proveedor y detecta proveedores sin&amp;nbsp;&lt;div&gt;precio vigente o sin historial de entregas&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0258" y="45" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="1304" />
+              <mxPoint x="1265" y="1364" />
+            </Array>
+            <mxPoint x="1140" y="1304" as="sourcePoint" />
+            <mxPoint x="1140" y="1364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-38" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="18. Calcular el tiempo real promedio y el porcentaje de cumplimiento&lt;br&gt;solo de los proveedores con datos">
+          <mxGeometry relative="1" y="55" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="1390" />
+              <mxPoint x="1265" y="1450" />
+            </Array>
+            <mxPoint x="1140" y="1390" as="sourcePoint" />
+            <mxPoint x="1140" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-39" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="19. Marcar los campos faltantes como &quot;Sin datos&quot; y saca a esos&lt;br&gt;proveedores del destaque automático">
+          <mxGeometry relative="1" y="45" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="1476" />
+              <mxPoint x="1265" y="1564" />
+            </Array>
+            <mxPoint x="1140" y="1476" as="sourcePoint" />
+            <mxPoint x="1140" y="1564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-40" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="20. Destacar la opción de menor costo y la de menor tiempo de entrega&amp;nbsp;&lt;div&gt;real entre los proveedores con datos&lt;/div&gt;">
+          <mxGeometry relative="1" y="55" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1265" y="1590" />
+              <mxPoint x="1265" y="1650" />
+            </Array>
+            <mxPoint x="1140" y="1590" as="sourcePoint" />
+            <mxPoint x="1140" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-41" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="21. Verificar el rol del usuario">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265" y="1676" />
+              <mxPoint x="1265" y="1750" />
+            </Array>
+            <mxPoint x="1140" y="1676" as="sourcePoint" />
+            <mxPoint x="1140" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="22. Retornar la tabla comparativa con los&lt;br&gt;campos faltantes marcados como &quot;Sin datos&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1804" as="sourcePoint" />
+            <mxPoint x="710" y="1804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="23. Despliega la comparativa incluyendo a los proveedores&amp;nbsp;&lt;div&gt;incompletos con suscampos marcados como &quot;Sin datos&quot;,&lt;br&gt;excluidos del destaque automático&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1884" as="sourcePoint" />
+            <mxPoint x="370" y="1884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1339 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Diagrama general" id="iooqac_NBjzbvndqS1jG">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0MEDqnqnOEmU6Ou0Owy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1450" width="3180" x="-210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-57" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="40.&amp;nbsp;Retornar la confirmación del anaquel eliminado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1045.504" y="1410" as="sourcePoint" />
+            <mxPoint x="428.5" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-60" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="41.&amp;nbsp;Muestra que el anaquel fue eliminado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="422" y="1430" as="sourcePoint" />
+            <mxPoint x="-64" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-54" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="39.&amp;nbsp;Confirmar el registro de la auditoría">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1334.5" y="1390" as="sourcePoint" />
+            <mxPoint x="1051" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-49" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-18" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0.424;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;" value="37.&amp;nbsp;Insertar el evento con la eliminación del anaquel, el usuario y la fecha">
+          <mxGeometry relative="1" x="-0.0278" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1349" y="1330" as="sourcePoint" />
+            <mxPoint x="2786.9799999999996" y="1330.3199999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-48" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="36.&amp;nbsp;Solicitar registrar la eliminación del anaquel en la&amp;nbsp;&lt;div&gt;auditoría,&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;después de confirmar la operación&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0263" y="20" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <mxPoint x="1043.5" y="1310" as="sourcePoint" />
+            <mxPoint x="1329.0033333333333" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-46" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="35.&amp;nbsp;Confirmar la persistencia de la eliminación">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1334.5" y="1260" as="sourcePoint" />
+            <mxPoint x="1051" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-44" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="33.&amp;nbsp;Eliminar el anaquel">
+          <mxGeometry relative="1" x="-0.0212" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1335.67" y="1213" as="sourcePoint" />
+            <mxPoint x="1673.5033333333333" y="1213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-40" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.184;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" value="31.&amp;nbsp;Dejar sin anaquel las filas de stock que lo referencian (las que estén en cero)">
+          <mxGeometry relative="1" x="0.0869" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1334" y="1150" as="sourcePoint" />
+            <mxPoint x="1937.502" y="1150.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-38" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="30.&amp;nbsp;Solicitar eliminar el anaquel en una sola operación">
+          <mxGeometry relative="1" x="0.0193" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1043.5" y="1140" as="sourcePoint" />
+            <mxPoint x="1329.0033333333333" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-37" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-24" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.111;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" value="29.&amp;nbsp;Envíar la eliminación del anaquel con el token de confirmación">
+          <mxGeometry relative="1" x="-0.0276" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="423" y="1120" as="sourcePoint" />
+            <mxPoint x="1039" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-34" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="28.&amp;nbsp;Retornar el token de confirmación, válido por 5 minutos&lt;div&gt;&amp;nbsp;y solo para esta acción&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0115" y="-19" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775.5" y="1079.5" as="sourcePoint" />
+            <mxPoint x="428.5" y="1079.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-33" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="27.&amp;nbsp;Confirmar la persistencia de la confirmación">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1335" y="1060" as="sourcePoint" />
+            <mxPoint x="781" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-24" edge="1" parent="1" source="bMpRxPtEOpa3Z06J8K2r-1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="24.&amp;nbsp;Solicitar registrar la confirmación exitosa">
+          <mxGeometry relative="1" x="-0.0081" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="762.5" y="980.0000000000005" as="sourcePoint" />
+            <mxPoint x="1329" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-21" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-18" style="rounded=0;html=1;endArrow=open;dashed=1;" value="22.&amp;nbsp;Entrega la credencial y los intentos fallidos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1398.004" y="899" as="sourcePoint" />
+            <mxPoint x="781" y="899" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-12" edge="1" parent="1" source="bMpRxPtEOpa3Z06J8K2r-1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17.&amp;nbsp;Consultar la credencial del usuario y sus intentos de confirmación recientes">
+          <mxGeometry relative="1" x="-0.0063" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="769" y="769.5" as="sourcePoint" />
+            <mxPoint x="1329" y="769.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="16.&amp;nbsp;Envíar la contraseña y la acción a confirmar&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0259" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="422.0000000000002" y="759.9999999999995" as="sourcePoint" />
+            <mxPoint x="769" y="759.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="15.&amp;nbsp;Ingresa su contraseña">
+          <mxGeometry relative="1" x="-0.0534" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-70.5" y="750" as="sourcePoint" />
+            <mxPoint x="416.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="14.&amp;nbsp;Solicita confirmar la eliminación del anaquel con su contraseña">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="422" y="720" as="sourcePoint" />
+            <mxPoint x="-64" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="13. Confirma la eliminación">
+          <mxGeometry relative="1" x="-0.0534" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-70.5" y="684.5" as="sourcePoint" />
+            <mxPoint x="416.5" y="684.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-5" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-24" style="rounded=0;html=1;endArrow=open;dashed=1;" value="12. Solicita confirmar la eliminación y advierte que no se puede deshacer">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="553.0039999999999" y="660" as="sourcePoint" />
+            <mxPoint x="-64" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="11. Retornar que el anaquel se puede eliminar">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1045.504" y="640" as="sourcePoint" />
+            <mxPoint x="428.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7V0s5l2jXD8AhO8ZYju-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="8.&amp;nbsp;Entrega el anaquel y sus productos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1334.5" y="520" as="sourcePoint" />
+            <mxPoint x="1051" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7V0s5l2jXD8AhO8ZYju-2" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-18" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.184;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" value="6.&amp;nbsp;Obtiene los productos con stock ubicados en el anaquel">
+          <mxGeometry relative="1" x="0.0869" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1343.21" y="470.43" as="sourcePoint" />
+            <mxPoint x="1937.502" y="470.00000000000017" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7V0s5l2jXD8AhO8ZYju-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retornar que no hay productos ubicados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1943" y="500" as="sourcePoint" />
+            <mxPoint x="1341" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7V0s5l2jXD8AhO8ZYju-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retornar el anaquel">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1677.004" y="430" as="sourcePoint" />
+            <mxPoint x="1341" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6pStD5rG-7XgKwus2LrA-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consultar el anaquel y los productos ubicados en él">
+          <mxGeometry relative="1" x="0.0193" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1044.5" y="380" as="sourcePoint" />
+            <mxPoint x="1330.0033333333333" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMpRxPtEOpa3Z06J8K2r-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="150" x="700" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene el anaquel de esa bodega">
+          <mxGeometry relative="1" x="-0.0212" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1335.6666666666667" y="404.00301310043676" as="sourcePoint" />
+            <mxPoint x="1673.5" y="404.00301310043676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-2" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-24" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.036;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" target="OzcYTzQlrOSOlaFpA1wu-22" value="2. Solicitar los productos ubicados en el anaquel">
+          <mxGeometry relative="1" x="-0.028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="799.0033333333332" y="370.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="150" x="970" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-2" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-10" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OzcYTzQlrOSOlaFpA1wu-25" value="1. Elige eliminar un anaquel de la bodega">
+          <mxGeometry relative="1" x="-0.0123" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="143.66666666666674" y="360" as="sourcePoint" />
+            <mxPoint x="474" y="360.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1310" width="20" x="-80" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-76" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="-100" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="150" x="1260" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1039" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_BodegaLista&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="340" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="416.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Anaquel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="1597" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-5" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="205" width="12" x="1329" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHN9LfRHxzjqxhNy-5d-2" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1673.5" y="389" as="geometry" />
+        </mxCell>
+        <mxCell id="R1dFlx97Qt3iOsqK2Q-V-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-141: Eliminando anaquel&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="380" x="1190" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="1861" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario_Contrasena&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="2135" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bMpRxPtEOpa3Z06J8K2r-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Reautenticacion_Intento&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="2420" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bMpRxPtEOpa3Z06J8K2r-43" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="2710" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="q7V0s5l2jXD8AhO8ZYju-3" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1937.5" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="q7V0s5l2jXD8AhO8ZYju-5" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="155" width="12" x="1039" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-1" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Verificar que el anaquel exista en la bodega">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1081.12" y="540" />
+              <mxPoint x="1081.12" y="570.3" />
+            </Array>
+            <mxPoint x="1051.12" y="540" as="sourcePoint" />
+            <mxPoint x="1051" y="570.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-2" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="10.&amp;nbsp;Verificar si hay productos&amp;nbsp;&lt;div&gt;ubicados en el anaquel&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1081.12" y="590" />
+              <mxPoint x="1081.12" y="620.3" />
+            </Array>
+            <mxPoint x="1051.12" y="590" as="sourcePoint" />
+            <mxPoint x="1051" y="620.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-4" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="140" width="12" x="416.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="120" width="12" x="-76" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-10" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="769" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-13" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="155" width="12" x="1329" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.033;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="emigkJ7hNFzwvHWr9KTf-16" value="18.&amp;nbsp;Obtiene la credencial almacenada del usuario">
+          <mxGeometry relative="1" x="-0.0369" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1341" y="780" as="sourcePoint" />
+            <mxPoint x="1943.502" y="780.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="19.&amp;nbsp;Retornar la credencial del usuario">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2216.28" y="810.4700000000003" as="sourcePoint" />
+            <mxPoint x="1340.9999999999998" y="810.4700000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-16" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2211.5" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.033;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" target="emigkJ7hNFzwvHWr9KTf-20" value="20.&amp;nbsp;Obtiene los intentos fallidos recientes del usuario">
+          <mxGeometry relative="1" x="-0.0362" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1341" y="845" as="sourcePoint" />
+            <mxPoint x="1943.502" y="845.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-19" edge="1" parent="1" source="bMpRxPtEOpa3Z06J8K2r-2" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.044;entryY=0.742;entryDx=0;entryDy=0;entryPerimeter=0;" target="emigkJ7hNFzwvHWr9KTf-13" value="21.&amp;nbsp;Retornar los intentos fallidos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2217" y="875" as="sourcePoint" />
+            <mxPoint x="1342" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-20" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2496.5" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="769" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-23" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="23.&amp;nbsp;Comparar la contraseña ingresada con la credencial del usuario">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="811.1199999999999" y="920" />
+              <mxPoint x="811.1199999999999" y="950.3" />
+            </Array>
+            <mxPoint x="781.1199999999999" y="920" as="sourcePoint" />
+            <mxPoint x="781" y="950.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1329" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-29" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.043;entryY=0.263;entryDx=0;entryDy=0;entryPerimeter=0;" target="emigkJ7hNFzwvHWr9KTf-31" value="25.&amp;nbsp;Insertar el intento exitoso con el usuario, la acción, la fecha y la hora">
+          <mxGeometry relative="1" x="-0.0372" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1341" y="1000" as="sourcePoint" />
+            <mxPoint x="2495.5159999999996" y="1004.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-30" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="26.&amp;nbsp;Confirmar el registro del intento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2501" y="1034.5" as="sourcePoint" />
+            <mxPoint x="1341" y="1034.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2496.5" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="769" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="416.5" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1039" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="270" width="12" x="1329" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-41" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="32.&amp;nbsp;Confirmar la actualización">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1943" y="1180" as="sourcePoint" />
+            <mxPoint x="1341" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1937.5" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-43" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="34.&amp;nbsp;Confirmar la eliminación">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1677.0073333333332" y="1238.9969868995631" as="sourcePoint" />
+            <mxPoint x="1341.0033333333333" y="1238.9969868995631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-45" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1673.5" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="85" width="12" x="1039" y="1245" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-50" edge="1" parent="1" source="bMpRxPtEOpa3Z06J8K2r-43" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="38.&amp;nbsp;Confirmar el registro del evento">
+          <mxGeometry relative="1" x="0.0007" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2501" y="1360" as="sourcePoint" />
+            <mxPoint x="1341" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2786.5" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-55" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1039" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-58" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="416.5" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="emigkJ7hNFzwvHWr9KTf-59" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-76" y="1410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="55Cy9Y-z1bAQFlVy2HXG" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="690" width="3090" x="190" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="11.&amp;nbsp;Informa que no se encontró el anaquel">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="762" y="799" as="sourcePoint" />
+            <mxPoint x="276" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="10.&amp;nbsp;Retornar el aviso de registro no encontrado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1385.504" y="782" as="sourcePoint" />
+            <mxPoint x="768.5" y="782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-22" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="8.&amp;nbsp;Entrega el anaquel y sus productos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1674.5" y="720" as="sourcePoint" />
+            <mxPoint x="1391" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-23" edge="1" parent="1" source="3d9nzZcUuVE5SJnJyesc-35" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.184;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" value="6.&amp;nbsp;Obtiene los productos con stock ubicados en el anaquel">
+          <mxGeometry relative="1" x="0.0869" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1683.21" y="670.4300000000001" as="sourcePoint" />
+            <mxPoint x="2277.502" y="670.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retornar que no hay productos ubicados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2283" y="700" as="sourcePoint" />
+            <mxPoint x="1681" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retornar el anaquel">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2017.004" y="630" as="sourcePoint" />
+            <mxPoint x="1681" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consultar el anaquel y los productos ubicados en él">
+          <mxGeometry relative="1" x="0.0193" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1384.5" y="580" as="sourcePoint" />
+            <mxPoint x="1670.0033333333333" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="150" x="1040" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-28" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene el anaquel de esa bodega">
+          <mxGeometry relative="1" x="-0.0212" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1675.6666666666667" y="604.0030131004368" as="sourcePoint" />
+            <mxPoint x="2013.5" y="604.0030131004368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-29" edge="1" parent="1" source="3d9nzZcUuVE5SJnJyesc-37" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.038;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" target="3d9nzZcUuVE5SJnJyesc-36" value="2. Solicitar los productos ubicados en el anaquel">
+          <mxGeometry relative="1" x="-0.028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="820" y="570" as="sourcePoint" />
+            <mxPoint x="1139.003333333333" y="570.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="150" x="1310" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-31" edge="1" parent="1" source="3d9nzZcUuVE5SJnJyesc-32" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="3d9nzZcUuVE5SJnJyesc-38" value="1. Elige eliminar un anaquel de la bodega">
+          <mxGeometry relative="1" x="-0.0123" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="483.66666666666674" y="560" as="sourcePoint" />
+            <mxPoint x="814" y="560.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="430" width="20" x="260" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="264" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="150" x="1600" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1379" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_BodegaLista&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="165" x="680" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="756.5" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Anaquel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="165" x="1937" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="205" width="12" x="1669" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2013.5" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-141: Eliminando anaquel&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="265" x="1540" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-43" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;inventario_bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="165" x="2201" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario_Contrasena&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="165" x="2475" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-45" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Reautenticacion_Intento&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="165" x="2760" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-46" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="165" x="3050" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2277.5" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-48" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="95" width="12" x="1379" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-49" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Verificar el anaquel, detecta que no existe en la bodega">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1421.12" y="740" />
+              <mxPoint x="1421.12" y="770.3" />
+            </Array>
+            <mxPoint x="1391.12" y="740" as="sourcePoint" />
+            <mxPoint x="1391" y="770.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="756.5" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="264" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="3d9nzZcUuVE5SJnJyesc-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Excepcion 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="1630" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rxdslwTIRwO00lLHy1u7" name="Excepcion 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1630" width="3100" x="60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="41.&amp;nbsp;Muestra que el anaquel fue eliminado,&lt;div&gt;los productos siguen en la bodega sin anaquel asignado&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0041" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="652" y="1550" as="sourcePoint" />
+            <mxPoint x="166" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="39.&amp;nbsp;Confirmar el registro de la auditoría">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1564.5" y="1510" as="sourcePoint" />
+            <mxPoint x="1281" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-4" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-35" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0.424;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;" value="37.&amp;nbsp;Insertar el evento con la eliminación del anaquel, el usuario y la fecha">
+          <mxGeometry relative="1" x="-0.0278" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1579" y="1450" as="sourcePoint" />
+            <mxPoint x="3016.9799999999996" y="1450.3199999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="36.&amp;nbsp;Solicitar registrar la eliminación del anaquel en la&amp;nbsp;&lt;div&gt;auditoría,&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;después de confirmar la operación&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0263" y="20" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <mxPoint x="1273.5" y="1430" as="sourcePoint" />
+            <mxPoint x="1559.0033333333333" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="35.&amp;nbsp;Confirmar la persistencia de la eliminación">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1564.5" y="1380" as="sourcePoint" />
+            <mxPoint x="1281" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="33.&amp;nbsp;Eliminar el anaquel">
+          <mxGeometry relative="1" x="-0.0212" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1565.67" y="1333" as="sourcePoint" />
+            <mxPoint x="1903.5033333333333" y="1333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.184;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" value="31.&amp;nbsp;Dejar sin anaquel las filas de stock que lo referencian (las que estén en cero)">
+          <mxGeometry relative="1" x="0.0869" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1564" y="1270" as="sourcePoint" />
+            <mxPoint x="2167.502" y="1270.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="30.&amp;nbsp;Solicitar eliminar el anaquel en una sola operación">
+          <mxGeometry relative="1" x="0.0193" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1273.5" y="1260" as="sourcePoint" />
+            <mxPoint x="1559.0033333333333" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-10" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-37" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.111;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" value="29.&amp;nbsp;Envíar la eliminación del anaquel con el token de confirmación">
+          <mxGeometry relative="1" x="-0.0276" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="653" y="1240" as="sourcePoint" />
+            <mxPoint x="1269" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="28.&amp;nbsp;Retornar el token de confirmación, válido por 5 minutos&lt;div&gt;&amp;nbsp;y solo para esta acción&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0115" y="-19" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1005.5" y="1199.5" as="sourcePoint" />
+            <mxPoint x="658.5" y="1199.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="27.&amp;nbsp;Confirmar la persistencia de la confirmación">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1565" y="1180" as="sourcePoint" />
+            <mxPoint x="1011" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-13" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-27" style="rounded=0;html=1;endArrow=block;endFill=1;" value="24.&amp;nbsp;Solicitar registrar la confirmación exitosa">
+          <mxGeometry relative="1" x="-0.0081" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="992.5" y="1100.0000000000005" as="sourcePoint" />
+            <mxPoint x="1559" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-14" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-35" style="rounded=0;html=1;endArrow=open;dashed=1;" value="22.&amp;nbsp;Entrega la credencial y los intentos fallidos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1628.004" y="1019" as="sourcePoint" />
+            <mxPoint x="1011" y="1019" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-15" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-27" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17.&amp;nbsp;Consultar la credencial del usuario y sus intentos de confirmación recientes">
+          <mxGeometry relative="1" x="-0.0063" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="999" y="889.5" as="sourcePoint" />
+            <mxPoint x="1559" y="889.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="16.&amp;nbsp;Envíar la contraseña y la acción a confirmar&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0259" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="652.0000000000002" y="879.9999999999995" as="sourcePoint" />
+            <mxPoint x="999" y="879.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="15.&amp;nbsp;Ingresa su contraseña">
+          <mxGeometry relative="1" x="-0.0534" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="159.5" y="870" as="sourcePoint" />
+            <mxPoint x="646.5" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="14.&amp;nbsp;Solicita confirmar la eliminación del anaquel con su contraseña">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="652" y="840" as="sourcePoint" />
+            <mxPoint x="166" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="13. Confirma la eliminación">
+          <mxGeometry relative="1" x="-0.0534" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="159.5" y="804.5" as="sourcePoint" />
+            <mxPoint x="646.5" y="804.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-20" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-37" style="rounded=0;html=1;endArrow=open;dashed=1;" value="12. Lista los productos e informa que seguirán en la misma bodega&amp;nbsp;&lt;div&gt;sin anaquel asignado y que el stock no cambia&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0041" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="783.0039999999999" y="780" as="sourcePoint" />
+            <mxPoint x="166" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="11. Retornar la lista de productos ubicados">
+          <mxGeometry relative="1" x="-0.0097" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1275.504" y="760" as="sourcePoint" />
+            <mxPoint x="658.5" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-22" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="8.&amp;nbsp;Entrega el anaquel y sus productos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1564.5" y="640" as="sourcePoint" />
+            <mxPoint x="1281" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-23" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-35" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.184;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" value="6.&amp;nbsp;Obtiene los productos con stock ubicados en el anaquel">
+          <mxGeometry relative="1" x="0.0869" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1573.21" y="590.4300000000001" as="sourcePoint" />
+            <mxPoint x="2167.502" y="590.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retornar que no hay productos ubicados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2173" y="620" as="sourcePoint" />
+            <mxPoint x="1571" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retornar el anaquel">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1907.004" y="550" as="sourcePoint" />
+            <mxPoint x="1571" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consultar el anaquel y los productos ubicados en él">
+          <mxGeometry relative="1" x="0.0193" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1274.5" y="500" as="sourcePoint" />
+            <mxPoint x="1560.0033333333333" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="150" x="930" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-28" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene el anaquel de esa bodega">
+          <mxGeometry relative="1" x="-0.0212" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1565.6666666666667" y="524.0030131004368" as="sourcePoint" />
+            <mxPoint x="1903.5" y="524.0030131004368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-29" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-37" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.111;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" target="8reLzj6Dzb3Q6NsSM2Jr-36" value="2. Solicitar los productos ubicados en el anaquel">
+          <mxGeometry relative="1" x="-0.028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="710" y="490" as="sourcePoint" />
+            <mxPoint x="1029.003333333333" y="490.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="150" x="1200" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-31" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-32" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8reLzj6Dzb3Q6NsSM2Jr-38" value="1. Elige eliminar un anaquel de la bodega">
+          <mxGeometry relative="1" x="-0.0123" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="373.66666666666674" y="480" as="sourcePoint" />
+            <mxPoint x="704" y="480.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1310" width="20" x="150" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="154" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="150" x="1490" y="362" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1269" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_BodegaLista&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="570" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="646.5" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="Anaquel" vertex="1">
+          <mxGeometry height="1320" width="165" x="1827" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="205" width="12" x="1559" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1903.5" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-141: Eliminando anaquel&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="380" x="1375" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-43" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="2091" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario_Contrasena&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="2365" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-45" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Reautenticacion_Intento&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="2650" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-46" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1320" width="165" x="2940" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2167.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-48" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="155" width="12" x="1269" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-49" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Verificar que el anaquel exista en la bodega">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1311.12" y="660" />
+              <mxPoint x="1311.12" y="690.3" />
+            </Array>
+            <mxPoint x="1281.12" y="660" as="sourcePoint" />
+            <mxPoint x="1281" y="690.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-50" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Verificar los productos,&lt;div&gt;detecta productos ubicados en el anaquel&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1311.12" y="710" />
+              <mxPoint x="1311.12" y="740.3" />
+            </Array>
+            <mxPoint x="1281.12" y="710" as="sourcePoint" />
+            <mxPoint x="1281" y="740.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="140" width="12" x="646.5" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="120" width="12" x="154" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-53" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="999" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-54" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="155" width="12" x="1559" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-55" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.082;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="8reLzj6Dzb3Q6NsSM2Jr-57" value="18.&amp;nbsp;Obtiene la credencial almacenada del usuario">
+          <mxGeometry relative="1" x="-0.0362" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1571" y="900" as="sourcePoint" />
+            <mxPoint x="2173.502" y="900.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-56" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="19.&amp;nbsp;Retornar la credencial del usuario">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2446.28" y="930.4700000000003" as="sourcePoint" />
+            <mxPoint x="1570.9999999999998" y="930.4700000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-57" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2441.5" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-58" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.082;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="8reLzj6Dzb3Q6NsSM2Jr-60" value="20.&amp;nbsp;Obtiene los intentos fallidos recientes del usuario">
+          <mxGeometry relative="1" x="-0.0362" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1571" y="965" as="sourcePoint" />
+            <mxPoint x="2173.502" y="965.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-59" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-45" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="21.&amp;nbsp;Retornar los intentos fallidos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2447" y="995" as="sourcePoint" />
+            <mxPoint x="1572" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-60" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2726.5" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-61" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="999" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-62" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="23.&amp;nbsp;Comparar la contraseña ingresada con la credencial del usuario">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1041.12" y="1040" />
+              <mxPoint x="1041.12" y="1070.3" />
+            </Array>
+            <mxPoint x="1011.1199999999999" y="1040" as="sourcePoint" />
+            <mxPoint x="1011" y="1070.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-63" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1559" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-64" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.082;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" value="25.&amp;nbsp;Insertar el intento exitoso con el usuario, la acción, la fecha y la hora">
+          <mxGeometry relative="1" x="-0.0362" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1571" y="1120" as="sourcePoint" />
+            <mxPoint x="2725.5159999999996" y="1124.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-65" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="26.&amp;nbsp;Confirmar el registro del intento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2731" y="1154.5" as="sourcePoint" />
+            <mxPoint x="1571" y="1154.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-66" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2726.5" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-67" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="999" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-68" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="646.5" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-69" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1269" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-70" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="270" width="12" x="1559" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-71" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="32.&amp;nbsp;Confirmar la actualización">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2173" y="1300" as="sourcePoint" />
+            <mxPoint x="1571" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-72" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2167.5" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-73" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="34.&amp;nbsp;Confirmar la eliminación">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1907.0073333333332" y="1358.9969868995631" as="sourcePoint" />
+            <mxPoint x="1571.0033333333333" y="1358.9969868995631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-74" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1903.5" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-75" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="85" width="12" x="1269" y="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-76" edge="1" parent="1" source="8reLzj6Dzb3Q6NsSM2Jr-46" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="38.&amp;nbsp;Confirmar el registro del evento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2731" y="1480" as="sourcePoint" />
+            <mxPoint x="1571" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-77" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="3016.5" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-78" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="85" width="12" x="1269" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-79" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="40.&amp;nbsp;Retornar la confirmación del anaquel eliminado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1275.504" y="1530" as="sourcePoint" />
+            <mxPoint x="658.5" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-80" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="646.5" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-81" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="154" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="8reLzj6Dzb3Q6NsSM2Jr-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Excepcion 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="1510" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="glKf2TQ4Sy7BJsssOcfV" name="Excepcion 3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1110" width="3050" x="120" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-84" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="29.&amp;nbsp;Informa que la contraseña es incorrecta y rechaza la operación sin cambios">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="666.5" y="1034.5" as="sourcePoint" />
+            <mxPoint x="184.5" y="1034.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-11" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-27" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=0.775;entryY=0.355;entryDx=0;entryDy=0;entryPerimeter=0;" value="28. Retornar el rechazo de la confirmación sin entregar el token">
+          <mxGeometry relative="1" x="0.0087" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1027.2" y="1019.9999999999995" as="sourcePoint" />
+            <mxPoint x="678.5" y="1019.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="27.&amp;nbsp;Confirmar la persistencia del intento fallido">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1585" y="1000" as="sourcePoint" />
+            <mxPoint x="1031" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-13" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-27" style="rounded=0;html=1;endArrow=block;endFill=1;" value="24.&amp;nbsp;Solicitar registrar el intento fallido">
+          <mxGeometry relative="1" x="-0.0081" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1012.5" y="920.0000000000005" as="sourcePoint" />
+            <mxPoint x="1579" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-14" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-35" style="rounded=0;html=1;endArrow=open;dashed=1;" value="22.&amp;nbsp;Entrega la credencial y los intentos fallidos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1648.004" y="839" as="sourcePoint" />
+            <mxPoint x="1031" y="839" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-15" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-27" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17.&amp;nbsp;Consulta la credencial del usuario y sus intentos de confirmación recientes">
+          <mxGeometry relative="1" x="-0.0063" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1019" y="709.5" as="sourcePoint" />
+            <mxPoint x="1579" y="709.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="16.&amp;nbsp;Envíar la contraseña y la acción a confirmar&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0259" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="672.0000000000002" y="699.9999999999995" as="sourcePoint" />
+            <mxPoint x="1019" y="699.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="15.&amp;nbsp;Ingresa su contraseña">
+          <mxGeometry relative="1" x="-0.0534" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="179.5" y="690" as="sourcePoint" />
+            <mxPoint x="666.5" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="14.&amp;nbsp;Solicita confirmar la eliminación del anaquel con su contraseña">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="672" y="660" as="sourcePoint" />
+            <mxPoint x="186" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="13. Confirma la eliminación">
+          <mxGeometry relative="1" x="-0.0534" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="179.5" y="624.5" as="sourcePoint" />
+            <mxPoint x="666.5" y="624.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-20" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-37" style="rounded=0;html=1;endArrow=open;dashed=1;" value="12. Solicita confirmar la eliminación y advierte que no se puede deshacer">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="803.0039999999999" y="600" as="sourcePoint" />
+            <mxPoint x="186" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="11. Retornar que el anaquel se puede eliminar">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1295.504" y="580" as="sourcePoint" />
+            <mxPoint x="678.5" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-22" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="8.&amp;nbsp;Entrega el anaquel y sus productos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1584.5" y="460" as="sourcePoint" />
+            <mxPoint x="1301" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-23" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-35" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.184;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" value="6.&amp;nbsp;Obtiene los productos con stock ubicados en el anaquel">
+          <mxGeometry relative="1" x="0.0869" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1593.21" y="410.43000000000006" as="sourcePoint" />
+            <mxPoint x="2187.502" y="410.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retornar que no hay productos ubicados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2193" y="440" as="sourcePoint" />
+            <mxPoint x="1591" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retornar el anaquel">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1927.004" y="370" as="sourcePoint" />
+            <mxPoint x="1591" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consultar el anaquel y los productos ubicados en él">
+          <mxGeometry relative="1" x="0.0193" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1294.5" y="320" as="sourcePoint" />
+            <mxPoint x="1580.0033333333333" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="150" x="950" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-28" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene el anaquel de esa bodega">
+          <mxGeometry relative="1" x="-0.0212" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1585.6666666666667" y="344.00301310043676" as="sourcePoint" />
+            <mxPoint x="1923.5" y="344.00301310043676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-29" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-37" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.111;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" target="kUAcfL70yYiOmI2MWbk3-36" value="2. Solicitar los productos ubicados en el anaquel">
+          <mxGeometry relative="1" x="-0.028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="730" y="310" as="sourcePoint" />
+            <mxPoint x="1049.003333333333" y="310.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="150" x="1220" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-31" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-32" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kUAcfL70yYiOmI2MWbk3-38" value="1. Elige eliminar un anaquel de la bodega">
+          <mxGeometry relative="1" x="-0.0123" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="393.66666666666674" y="300" as="sourcePoint" />
+            <mxPoint x="724" y="300.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="900" width="20" x="170" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="174" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="150" x="1510" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1289" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_BodegaLista&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="165" x="590" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="666.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Anaquel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="165" x="1847" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="205" width="12" x="1579" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1923.5" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-141: Eliminando anaquel&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="206" x="1532" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-43" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="165" x="2111" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario_Contrasena&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="165" x="2385" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-45" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Reautenticacion_Intento&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="165" x="2670" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-46" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="910" width="165" x="2960" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2187.5" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-48" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="155" width="12" x="1289" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-49" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Verificar que el anaquel exista en la bodega">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1331.12" y="480" />
+              <mxPoint x="1331.12" y="510.29999999999995" />
+            </Array>
+            <mxPoint x="1301.12" y="480" as="sourcePoint" />
+            <mxPoint x="1301" y="510.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-50" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="10.&amp;nbsp;Verificar si hay productos&amp;nbsp;&lt;div&gt;ubicados en el anaquel&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1331.12" y="530" />
+              <mxPoint x="1331.12" y="560.3" />
+            </Array>
+            <mxPoint x="1301.12" y="530" as="sourcePoint" />
+            <mxPoint x="1301" y="560.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="140" width="12" x="666.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="120" width="12" x="174" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-53" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1019" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-54" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="155" width="12" x="1579" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-55" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.082;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="kUAcfL70yYiOmI2MWbk3-57" value="18.&amp;nbsp;Obtiene la credencial almacenada del usuario">
+          <mxGeometry relative="1" x="-0.0362" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1591" y="720" as="sourcePoint" />
+            <mxPoint x="2193.502" y="720.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-56" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="19.&amp;nbsp;Retornar la credencial del usuario">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2466.28" y="750.4700000000003" as="sourcePoint" />
+            <mxPoint x="1590.9999999999998" y="750.4700000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-57" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2461.5" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-58" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.082;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="kUAcfL70yYiOmI2MWbk3-60" value="20.&amp;nbsp;Obtiene los intentos fallidos recientes del usuario">
+          <mxGeometry relative="1" x="-0.0362" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1591" y="785" as="sourcePoint" />
+            <mxPoint x="2193.502" y="785.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-59" edge="1" parent="1" source="kUAcfL70yYiOmI2MWbk3-45" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.041;entryY=0.742;entryDx=0;entryDy=0;entryPerimeter=0;" target="kUAcfL70yYiOmI2MWbk3-54" value="21.&amp;nbsp;Retornar los intentos fallidos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2467" y="815" as="sourcePoint" />
+            <mxPoint x="1592" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-60" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2746.5" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-61" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1019" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-62" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="23.&amp;nbsp;Comparar la contraseña ingresada con la credencial del usuario, no coinciden">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1061.12" y="860" />
+              <mxPoint x="1061.12" y="890.3" />
+            </Array>
+            <mxPoint x="1031.12" y="860" as="sourcePoint" />
+            <mxPoint x="1031" y="890.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-63" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1579" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-64" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.082;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" value="25.Insertar el intento fallido con el usuario, la acción, la fecha y la hora">
+          <mxGeometry relative="1" x="-0.0362" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1591" y="940" as="sourcePoint" />
+            <mxPoint x="2745.5159999999996" y="944.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-65" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.06;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" value="26.&amp;nbsp;Confirmar el registro del intento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2751" y="974.5" as="sourcePoint" />
+            <mxPoint x="1591" y="974.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-66" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="2746.5" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-67" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1019" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-68" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="174" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Excepcion 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="1580" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="kUAcfL70yYiOmI2MWbk3-83" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="666.5" y="1000" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

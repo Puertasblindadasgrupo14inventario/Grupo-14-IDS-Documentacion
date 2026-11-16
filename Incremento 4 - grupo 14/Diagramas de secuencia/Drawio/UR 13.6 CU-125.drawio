@@ -1,0 +1,1101 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Diagrama general" id="iooqac_NBjzbvndqS1jG">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0MEDqnqnOEmU6Ou0Owy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="910" width="2070" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-41" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.261;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" value="30.&amp;nbsp;Muestra la confirmación del inicio de la carga&amp;nbsp;&lt;div&gt;con su timestamp y su responsable&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0264" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="476.3129885057474" y="990" as="sourcePoint" />
+            <mxPoint x="110" y="991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-38" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="29.&amp;nbsp;Retorna la confirmación del pedido en estado&amp;nbsp;&lt;div&gt;&quot;En carga&quot; con su trabajador responsable&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0344" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="805" y="980" as="sourcePoint" />
+            <mxPoint x="486" y="980.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-35" edge="1" parent="1" source="QdMtWNC0PF3ypm31mGNt-1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.175;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" value="27.&amp;nbsp;Confirma el registro del nuevo estado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1734.9999999999998" y="950" as="sourcePoint" />
+            <mxPoint x="1181" y="950.0199999999992" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-6" edge="1" parent="1" source="QdMtWNC0PF3ypm31mGNt-1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.175;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retorna los estados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1735" y="494.00000000000045" as="sourcePoint" />
+            <mxPoint x="1181.0000000000002" y="494.01999999999964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-34" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="QdMtWNC0PF3ypm31mGNt-33" value="26.&amp;nbsp;Inserta el estado &quot;En carga&quot; con el trabajador responsable, el usuario que lo registra y su timestamp de inicio">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1175" y="920" as="sourcePoint" />
+            <mxPoint x="1736.5" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-31" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="25.&amp;nbsp;Solicita registrar el inicio de la carga y cambiar el estado del pedido">
+          <mxGeometry relative="1" x="0.0028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="804.5" y="910" as="sourcePoint" />
+            <mxPoint x="1169" y="910.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="20.&amp;nbsp;Consulta el empleado elegido">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="804.5" y="790" as="sourcePoint" />
+            <mxPoint x="1169" y="790.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="19.&amp;nbsp;Envía el trabajador elegido">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480" y="780" as="sourcePoint" />
+            <mxPoint x="799.0033333333332" y="780.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-20" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-10" style="rounded=0;html=1;endArrow=block;endFill=1;" value="18.&amp;nbsp;Selecciona por su nombre a el trabajador responsable de la carga">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="124" y="770" as="sourcePoint" />
+            <mxPoint x="474" y="770.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-19" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-27" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="16.&amp;nbsp;Retorna el detalle del pedido y la lista de empleados">
+          <mxGeometry relative="1" x="0.0004" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="841.868" y="730" as="sourcePoint" />
+            <mxPoint x="486" y="730.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=0.917;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;" value="13.&amp;nbsp;Retorna los empleados activos">
+          <mxGeometry relative="1" x="-0.0187" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1984" y="660.0049999999997" as="sourcePoint" />
+            <mxPoint x="1181.004" y="660.0049999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="11.&amp;nbsp;Consulta los empleados activos registrados en Finanzas">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="804.5" y="620" as="sourcePoint" />
+            <mxPoint x="1169" y="620.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6.&amp;nbsp;Obtiene los estados registrados de la preparación del pedido">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1169.310344827586" y="470" as="sourcePoint" />
+            <mxPoint x="1776.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene los insumos del pedido con su cantidad requerida&amp;nbsp;&lt;div&gt;y su cantidad retirada&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0212" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1174.6666666666667" y="400.00301310043676" as="sourcePoint" />
+            <mxPoint x="1512.5" y="400.00301310043676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPIs17SxJKnd0jnJIC3R-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.025;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" target="eXQo7twSvsaSOrZBXdvv-29" value="17.&amp;nbsp;Muestra el detalle del pedido y solicita elegir al trabajador&amp;nbsp;&lt;div&gt;responsable de la carga&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0189" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="479.3129885057474" y="740" as="sourcePoint" />
+            <mxPoint x="130" y="740.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="3. Consulta el retiro de los insumos y el estado de carga del pedido">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="804.5" y="390" as="sourcePoint" />
+            <mxPoint x="1169" y="390.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retorna los insumos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1517" y="429.996" as="sourcePoint" />
+            <mxPoint x="1180.996" y="429.996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita el detalle del pedido para el registro de carga">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="799.0033333333332" y="370.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="150" x="730" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-2" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-10" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Selecciona un pedido cuyos insumos fueron retirados de bodega">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="143.66666666666674" y="360" as="sourcePoint" />
+            <mxPoint x="474" y="360.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="800" width="20" x="94" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="98" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="80" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="150" x="1100" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="799" y="362" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_CargaTransporte&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="150" x="405" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="474" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="165" x="1436" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-5" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="144" width="12" x="1169" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHN9LfRHxzjqxhNy-5d-2" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1512.5" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="R1dFlx97Qt3iOsqK2Q-V-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-125: Controlando la carga en transporte&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="850" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="150" width="12" x="799" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="64" width="12" x="474" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="98" y="732" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="165" x="1700" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Empleado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="165" x="1902" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-5" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1776.5" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.036;entryY=0.168;entryDx=0;entryDy=0;entryPerimeter=0;" target="eXQo7twSvsaSOrZBXdvv-15" value="8.&amp;nbsp;Entrega el estado de retiro y el estado de carga del pedido">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1169.004" y="505" as="sourcePoint" />
+            <mxPoint x="813.136" y="505.15750000000025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-9" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9.&amp;nbsp;Verifica que no queden insumos pendientes&lt;div&gt;&amp;nbsp;ni retirados en forma parcial&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="841.1199999999999" y="520" />
+              <mxPoint x="841.1199999999999" y="550.3" />
+            </Array>
+            <mxPoint x="811.1199999999999" y="520" as="sourcePoint" />
+            <mxPoint x="811" y="550.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-10" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="10.&amp;nbsp;Verifica que el pedido no tenga una carga ya iniciada">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="841.1199999999999" y="569" />
+              <mxPoint x="841.1199999999999" y="599.3" />
+            </Array>
+            <mxPoint x="811.1199999999999" y="569" as="sourcePoint" />
+            <mxPoint x="811" y="599.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-12" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1169" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.063;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" value="12.&amp;nbsp;Obtiene los empleados activos con su nombre y su cargo">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1181.76" y="630.1" as="sourcePoint" />
+            <mxPoint x="1978.5040000000001" y="629.8840000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-14" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="1978.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.04;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;" target="QdMtWNC0PF3ypm31mGNt-17" value="14.&amp;nbsp;Entrega los empleados activos&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1168.998" y="670" as="sourcePoint" />
+            <mxPoint x="813.13" y="670.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="80" width="12" x="799" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="15.&amp;nbsp;Arma la lista de empleados por nombre,&lt;div&gt;con el cargo solo si hay nombres repetidos&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="841.1199999999999" y="684.83" />
+              <mxPoint x="841.1199999999999" y="715.13" />
+            </Array>
+            <mxPoint x="811.1199999999999" y="684.83" as="sourcePoint" />
+            <mxPoint x="811" y="715.1574999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="799" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1169" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.063;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" value="21.&amp;nbsp;Obtiene el empleado con su estado">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1181.76" y="800.2159999999997" as="sourcePoint" />
+            <mxPoint x="1978.5040000000001" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=0.917;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;" value="22.&amp;nbsp;Retorna el empleado">
+          <mxGeometry relative="1" x="-0.0187" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1983.996" y="830.0150000000001" as="sourcePoint" />
+            <mxPoint x="1181" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="1978.5" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="799" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-29" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="23.&amp;nbsp;Entrega los datos del empleado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1166.868" y="840" as="sourcePoint" />
+            <mxPoint x="811" y="840.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-30" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="24.&amp;nbsp;Valida que el empleado exista y esté activo">
+          <mxGeometry relative="1" x="0.0102" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="841.1199999999999" y="854.84" />
+              <mxPoint x="841.1199999999999" y="885.14" />
+            </Array>
+            <mxPoint x="811.1199999999999" y="854.84" as="sourcePoint" />
+            <mxPoint x="811" y="885.1674999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1169" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="1776.5" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-36" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.033;entryY=0.26;entryDx=0;entryDy=0;entryPerimeter=0;" target="QdMtWNC0PF3ypm31mGNt-37" value="28.&amp;nbsp;Confirma la persistencia del inicio de la carga">
+          <mxGeometry relative="1" x="0.0004" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1168.998" y="970" as="sourcePoint" />
+            <mxPoint x="813.13" y="970.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="799" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="474" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="QdMtWNC0PF3ypm31mGNt-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="98" y="980" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="55Cy9Y-z1bAQFlVy2HXG" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="870" width="2110" x="140" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ZcjHZkcpK8miaUwahKIS-61" value="26.&amp;nbsp;Rechaza el registro y solicita elegir otro trabajador">
+          <mxGeometry relative="1" x="0.0171" y="-11" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="600.3129885057474" y="919.5" as="sourcePoint" />
+            <mxPoint x="234" y="920.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="25.&amp;nbsp;Retorna el rechazo sin registrar la carga">
+          <mxGeometry relative="1" x="0.0345" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="925" y="910" as="sourcePoint" />
+            <mxPoint x="606" y="910.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-5" edge="1" parent="1" source="ZcjHZkcpK8miaUwahKIS-36" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.175;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retorna los estados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1855" y="504.00000000000045" as="sourcePoint" />
+            <mxPoint x="1301.0000000000002" y="504.01999999999964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="20.&amp;nbsp;Consulta el empleado elegido">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="924.5" y="800" as="sourcePoint" />
+            <mxPoint x="1289" y="800.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="19.&amp;nbsp;Envía el trabajador elegido">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="600" y="790" as="sourcePoint" />
+            <mxPoint x="919.0033333333332" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-10" edge="1" parent="1" source="ZcjHZkcpK8miaUwahKIS-22" style="rounded=0;html=1;endArrow=block;endFill=1;" value="18.&amp;nbsp;Selecciona por su nombre a el trabajador responsable de la carga">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="244" y="780" as="sourcePoint" />
+            <mxPoint x="594" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-11" edge="1" parent="1" source="ZcjHZkcpK8miaUwahKIS-20" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="16.&amp;nbsp;Retorna el detalle del pedido y la lista de empleados">
+          <mxGeometry relative="1" x="0.0004" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="961.868" y="740" as="sourcePoint" />
+            <mxPoint x="606" y="740.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=0.917;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;" value="13.&amp;nbsp;Retorna los empleados activos">
+          <mxGeometry relative="1" x="-0.0187" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2104" y="670.0049999999997" as="sourcePoint" />
+            <mxPoint x="1301.004" y="670.0049999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="11.&amp;nbsp;Consulta los empleados activos registrados en Finanzas">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="924.5" y="630" as="sourcePoint" />
+            <mxPoint x="1289" y="630.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6.&amp;nbsp;Obtiene los estados registrados de la preparación del pedido">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1289.310344827586" y="480" as="sourcePoint" />
+            <mxPoint x="1896.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene los insumos del pedido con su cantidad requerida&amp;nbsp;&lt;div&gt;y su cantidad retirada&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0212" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1294.6666666666667" y="410.00301310043676" as="sourcePoint" />
+            <mxPoint x="1632.5" y="410.00301310043676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.017;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZcjHZkcpK8miaUwahKIS-35" value="17.&amp;nbsp;Muestra el detalle del pedido y solicita elegir al trabajador&amp;nbsp;&lt;div&gt;responsable de la carga&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0186" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="240" y="750" />
+            </Array>
+            <mxPoint x="599.3129885057474" y="750" as="sourcePoint" />
+            <mxPoint x="250" y="750.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="3. Consulta el retiro de los insumos y el estado de carga del pedido">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="924.5" y="400" as="sourcePoint" />
+            <mxPoint x="1289" y="400.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retorna los insumos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1637" y="439.996" as="sourcePoint" />
+            <mxPoint x="1300.996" y="439.996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita el detalle del pedido para el registro de carga">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="600" y="380" as="sourcePoint" />
+            <mxPoint x="919.0033333333332" y="380.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="710" width="150" x="850" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-21" edge="1" parent="1" source="ZcjHZkcpK8miaUwahKIS-22" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Selecciona un pedido cuyos insumos fueron retirados de bodega">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="263.66666666666674" y="370" as="sourcePoint" />
+            <mxPoint x="594" y="370.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="710" width="20" x="214" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="218" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="710" width="150" x="1220" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="919" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_CargaTransporte&lt;/u&gt;" vertex="1">
+          <mxGeometry height="710" width="150" x="525" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="594" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="710" width="165" x="1556" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="144" width="12" x="1289" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1632.5" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-125: Controlando la carga en transporte&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="1080.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="150" width="12" x="919" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="64" width="12" x="594" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="218" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="710" width="165" x="1820" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Empleado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="710" width="165" x="2022" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1896.5" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.019;entryY=0.169;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZcjHZkcpK8miaUwahKIS-33" value="8.&amp;nbsp;Entrega el estado de retiro y el estado de carga del pedido">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1289.004" y="515" as="sourcePoint" />
+            <mxPoint x="933.136" y="515.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-40" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9.&amp;nbsp;Verifica que no queden insumos pendientes&lt;div&gt;&amp;nbsp;ni retirados en forma parcial&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="961.1199999999999" y="530" />
+              <mxPoint x="961.1199999999999" y="560.3" />
+            </Array>
+            <mxPoint x="931.1199999999999" y="530" as="sourcePoint" />
+            <mxPoint x="931" y="560.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-41" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="10.&amp;nbsp;Verifica que el pedido no tenga una carga ya iniciada">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="961.1199999999999" y="579" />
+              <mxPoint x="961.1199999999999" y="609.3" />
+            </Array>
+            <mxPoint x="931.1199999999999" y="579" as="sourcePoint" />
+            <mxPoint x="931" y="609.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1289" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-43" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.063;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" value="12.&amp;nbsp;Obtiene los empleados activos con su nombre y su cargo">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1301.76" y="640.1" as="sourcePoint" />
+            <mxPoint x="2098.504" y="639.8840000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-44" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="2098.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-45" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.037;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZcjHZkcpK8miaUwahKIS-46" value="14.&amp;nbsp;Entrega los empleados activos&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1288.998" y="680" as="sourcePoint" />
+            <mxPoint x="933.13" y="680.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-46" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="80" width="12" x="919" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-47" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="15.&amp;nbsp;Arma la lista de empleados por nombre,&lt;div&gt;con el cargo solo si hay nombres repetidos&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="961.1199999999999" y="694.83" />
+              <mxPoint x="961.1199999999999" y="725.13" />
+            </Array>
+            <mxPoint x="931.1199999999999" y="694.83" as="sourcePoint" />
+            <mxPoint x="931" y="725.1574999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-48" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="919" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-49" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1289" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-50" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.063;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" value="21.&amp;nbsp;Obtiene el empleado con su estado">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1301.76" y="810.2159999999997" as="sourcePoint" />
+            <mxPoint x="2098.504" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-51" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=0.917;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;" value="22.&amp;nbsp;Retorna el empleado">
+          <mxGeometry relative="1" x="-0.0187" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2103.996" y="840.0150000000001" as="sourcePoint" />
+            <mxPoint x="1301" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="2098.5" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-53" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="919" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-54" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="23.&amp;nbsp;Entrega los datos del empleado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1286.868" y="850" as="sourcePoint" />
+            <mxPoint x="931" y="850.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-55" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="24.&amp;nbsp;Valida el empleado, detecta que no existe o ya no está activo">
+          <mxGeometry relative="1" x="0.0143" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="961.1199999999999" y="864.8400000000001" />
+              <mxPoint x="961.1199999999999" y="895.1399999999999" />
+            </Array>
+            <mxPoint x="931.1199999999999" y="864.8400000000001" as="sourcePoint" />
+            <mxPoint x="931" y="895.1675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-60" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="594" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="ZcjHZkcpK8miaUwahKIS-61" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="218" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="Cf7ZzVtXQqHSt-5wq1IC-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Excepcion 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="89" x="1186" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rxdslwTIRwO00lLHy1u7" name="Excepcion 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="970" width="2123" x="67" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" value="29.&amp;nbsp;Muestra la confirmación del segundo responsable,&amp;nbsp;&lt;div&gt;conservando el registro del primero&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0264" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="545.3129885057474" y="900" as="sourcePoint" />
+            <mxPoint x="129.99599999999998" y="900.8000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;div&gt;28.&amp;nbsp;Retornar la confirmación del segundo&amp;nbsp;&lt;/div&gt;&lt;div&gt;responsable sumado a la carga&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0344" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="875" y="890" as="sourcePoint" />
+            <mxPoint x="556" y="890.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.175;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" value="26.&amp;nbsp;Confirmar el registro del estado">
+          <mxGeometry relative="1" x="0.0011" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1852" y="860.0199999999991" as="sourcePoint" />
+            <mxPoint x="1251" y="860.0199999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-5" edge="1" parent="1" source="bDwaqhpRZNVy1-O2ZpJM-36" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.175;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retornar los estados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1805" y="454.00000000000045" as="sourcePoint" />
+            <mxPoint x="1251.0000000000002" y="454.01999999999964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="bDwaqhpRZNVy1-O2ZpJM-57" value="25.Insertar otra fila &quot;En carga&quot; con el segundo responsable y su timestamp">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1245" y="830" as="sourcePoint" />
+            <mxPoint x="1806.5" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="24.&amp;nbsp;Solicitar registrar el segundo responsable conservando el primero">
+          <mxGeometry relative="1" x="0.0028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="874.5" y="820" as="sourcePoint" />
+            <mxPoint x="1239" y="820.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="19.&amp;nbsp;Consultar el empleado elegido">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="874.5" y="700" as="sourcePoint" />
+            <mxPoint x="1239" y="700.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="18.&amp;nbsp;Envíar el segundo trabajador elegido para sumarlo&amp;nbsp;&lt;div&gt;a la carga&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0031" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="550" y="690" as="sourcePoint" />
+            <mxPoint x="869.0033333333332" y="690.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-10" edge="1" parent="1" source="bDwaqhpRZNVy1-O2ZpJM-22" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17.&amp;nbsp;Selecciona por su nombre a el segundo trabajador responsable de la carga">
+          <mxGeometry relative="1" x="-0.0009" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="173.66666666666674" y="680" as="sourcePoint" />
+            <mxPoint x="544" y="680.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="15.&amp;nbsp;Retornar el registro de carga existente&amp;nbsp;&lt;div&gt;con sus responsables y la opción de sumar otro&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0298" y="-20" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="874.5" y="639.9975000000003" as="sourcePoint" />
+            <mxPoint x="556" y="639.9975000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=0.917;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;" value="13.&amp;nbsp;Retornar los empleados activos">
+          <mxGeometry relative="1" x="-0.0187" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2054" y="620.0049999999997" as="sourcePoint" />
+            <mxPoint x="1251.004" y="620.0049999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="11.&amp;nbsp;Consultar los empleados activos registrados en Finanzas">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="874.5" y="580" as="sourcePoint" />
+            <mxPoint x="1239" y="580.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6.&amp;nbsp;Obtiene los estados registrados de la preparación del pedido">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1239.310344827586" y="430" as="sourcePoint" />
+            <mxPoint x="1846.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene los insumos del pedido con su cantidad requerida&amp;nbsp;&lt;div&gt;y su cantidad retirada&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0212" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1244.6666666666667" y="360.00301310043676" as="sourcePoint" />
+            <mxPoint x="1582.5" y="360.00301310043676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.027;entryY=0.174;entryDx=0;entryDy=0;entryPerimeter=0;" target="bDwaqhpRZNVy1-O2ZpJM-35" value="16.&amp;nbsp;Muestra el registro existente y permite&amp;nbsp;&lt;div&gt;sumar un segundo responsable en lugar de reemplazarlo&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0215" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="549.3129885057474" y="650" as="sourcePoint" />
+            <mxPoint x="200" y="650.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="3. Consultar el retiro de los insumos y el estado de carga del pedido">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="874.5" y="350" as="sourcePoint" />
+            <mxPoint x="1239" y="350.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retornar los insumos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1587" y="389.996" as="sourcePoint" />
+            <mxPoint x="1250.996" y="389.996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicitar el detalle del pedido para el registro de carga">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="550" y="330" as="sourcePoint" />
+            <mxPoint x="869.0033333333332" y="330.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="150" x="800" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-21" edge="1" parent="1" source="bDwaqhpRZNVy1-O2ZpJM-22" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Selecciona un pedido cuyos insumos fueron retirados de bodega">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="213.66666666666674" y="320" as="sourcePoint" />
+            <mxPoint x="544" y="320.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="800" width="20" x="114" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="118" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="150" x="1170" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="869" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_CargaTransporte&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="150" x="475" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="544" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="165" x="1506" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="144" width="12" x="1239" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1582.5" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-125: Controlando la carga en transporte&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="310" x="990" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="150" width="12" x="869" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="64" width="12" x="544" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="118" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="165" x="1770" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Empleado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="800" width="165" x="1972" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1846.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.004;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" target="bDwaqhpRZNVy1-O2ZpJM-33" value="8.&amp;nbsp;Entrega el estado de retiro y el estado de carga del pedido">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1239.004" y="465" as="sourcePoint" />
+            <mxPoint x="883.136" y="465.15750000000025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-40" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9.&amp;nbsp;Verificar que no queden insumos pendientes&lt;div&gt;&amp;nbsp;ni retirados en forma parcial&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="911.1199999999999" y="480" />
+              <mxPoint x="911.1199999999999" y="510.29999999999995" />
+            </Array>
+            <mxPoint x="881.1199999999999" y="480" as="sourcePoint" />
+            <mxPoint x="881" y="510.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-41" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="10.&amp;nbsp;Verificar el estado de carga,&lt;div&gt;detecta que el pedido ya tiene una carga iniciada&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0179" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="911.1199999999999" y="529" />
+              <mxPoint x="911.1199999999999" y="559.3" />
+            </Array>
+            <mxPoint x="881.1199999999999" y="529" as="sourcePoint" />
+            <mxPoint x="881" y="559.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1239" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-43" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.063;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" value="12.&amp;nbsp;Obtiene los empleados activos con su nombre y su cargo">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251.76" y="590.1" as="sourcePoint" />
+            <mxPoint x="2048.504" y="589.8840000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-44" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="2048.5" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-45" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.032;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;" target="bDwaqhpRZNVy1-O2ZpJM-46" value="14.&amp;nbsp;Entrega los empleados activos&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1238.998" y="630" as="sourcePoint" />
+            <mxPoint x="883.1300000000001" y="630.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-46" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="869" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-49" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1239" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-50" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.063;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" value="20.&amp;nbsp;Obtiene el empleado con su estado">
+          <mxGeometry relative="1" x="-0.0064" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251.76" y="710.2159999999997" as="sourcePoint" />
+            <mxPoint x="2048.504" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-51" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=0.917;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;" value="21.&amp;nbsp;Retornar el empleado">
+          <mxGeometry relative="1" x="-0.0187" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2053.996" y="740.0150000000001" as="sourcePoint" />
+            <mxPoint x="1251" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="2048.5" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-53" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="869" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-54" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.178;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" value="22.&amp;nbsp;Entrega los datos del empleado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1236.868" y="750" as="sourcePoint" />
+            <mxPoint x="881" y="750.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-55" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="23.&amp;nbsp;Validar que el empleado exista, esté activo&amp;nbsp;&lt;div&gt;y no sea ya responsable de esta carga&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0102" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="911.1199999999999" y="764.84" />
+              <mxPoint x="911.1199999999999" y="795.14" />
+            </Array>
+            <mxPoint x="881.1199999999999" y="764.84" as="sourcePoint" />
+            <mxPoint x="881" y="795.1674999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-56" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1239" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-57" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="44" width="12" x="1846.5" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-58" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.033;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" target="bDwaqhpRZNVy1-O2ZpJM-59" value="27.&amp;nbsp;Confirmar la persistencia del segundo responsable">
+          <mxGeometry relative="1" x="0.0004" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1238.998" y="880" as="sourcePoint" />
+            <mxPoint x="883.1300000000001" y="880.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-59" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="869" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-60" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="544" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-61" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="118" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="bDwaqhpRZNVy1-O2ZpJM-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Excepcion 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="95" x="1105" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="glKf2TQ4Sy7BJsssOcfV" name="Excepcion 3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="610" width="2070" x="206" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-5" edge="1" parent="1" source="Hv7ICng82oUGtSq7FD5N-36" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.175;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" value="7.&amp;nbsp;Retornar los estados">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1915" y="554.0000000000005" as="sourcePoint" />
+            <mxPoint x="1361.0000000000002" y="554.0199999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="11.&amp;nbsp;Retornar los ítems pendientes y bloquea el registro de carga">
+          <mxGeometry relative="1" x="0.0139" y="-18" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="984.5" y="678.1575000000003" as="sourcePoint" />
+            <mxPoint x="660" y="678.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6.&amp;nbsp;Obtiene los estados registrados de la preparación del pedido">
+          <mxGeometry relative="1" x="-0.0057" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1349.310344827586" y="530" as="sourcePoint" />
+            <mxPoint x="1956.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene los insumos del pedido con su cantidad requerida&amp;nbsp;&lt;div&gt;y su cantidad retirada&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0212" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1354.6666666666667" y="460.00301310043676" as="sourcePoint" />
+            <mxPoint x="1692.5" y="460.00301310043676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.057;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;" value="12.&amp;nbsp;Bloquea el registro de carga e indica qué ítems faltan por retirar">
+          <mxGeometry relative="1" x="0.0339" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="658.6329885057474" y="689.58" as="sourcePoint" />
+            <mxPoint x="290.00399999999996" y="690.4200000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="3. Consultar el retiro de los insumos y el estado de carga del pedido">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="984.5" y="450" as="sourcePoint" />
+            <mxPoint x="1349" y="450.4999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retornar los insumos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1697" y="489.996" as="sourcePoint" />
+            <mxPoint x="1360.996" y="489.996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicitar el detalle del pedido para el registro de carga">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660" y="430" as="sourcePoint" />
+            <mxPoint x="979.0033333333332" y="430.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="910" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-21" edge="1" parent="1" source="Hv7ICng82oUGtSq7FD5N-22" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.115;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" target="Hv7ICng82oUGtSq7FD5N-28" value="1. Selecciona un pedido cuyos insumos fueron retirados de bodega">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="323.66666666666674" y="420" as="sourcePoint" />
+            <mxPoint x="654" y="420.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="274" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="278" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="1280" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="979" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_CargaTransporte&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="580" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="649" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="165" x="1616" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="144" width="12" x="1349" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1692.5" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CU-125: Controlando la carga en transporte&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="1030" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="150" width="12" x="979" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="649" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="278" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="165" x="1880" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Empleado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="165" x="2082" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="55" width="12" x="1956.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.01;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" target="Hv7ICng82oUGtSq7FD5N-33" value="8.&amp;nbsp;Entrega el estado de retiro y el estado de carga del pedido">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1349.004" y="565" as="sourcePoint" />
+            <mxPoint x="993.136" y="565.1575000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-40" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Verificar el retiro de los insumos,&lt;div&gt;detecta ítems pendientes o parciales&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1021.1199999999999" y="580" />
+              <mxPoint x="1021.1199999999999" y="610.3" />
+            </Array>
+            <mxPoint x="991.1199999999999" y="580" as="sourcePoint" />
+            <mxPoint x="991" y="610.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hv7ICng82oUGtSq7FD5N-41" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.99;entryY=0.795;entryDx=0;entryDy=0;entryPerimeter=0;" value="10.&amp;nbsp;Armar el detalle de los ítems que faltan por retirar">
+          <mxGeometry relative="1" x="0.0142" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1021.1199999999999" y="629" />
+              <mxPoint x="1021.1199999999999" y="659.3" />
+            </Array>
+            <mxPoint x="991.1199999999999" y="629" as="sourcePoint" />
+            <mxPoint x="991" y="659.3274999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtMJWETyxijYCyFENWU4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Excepcion 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="91" x="1150" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

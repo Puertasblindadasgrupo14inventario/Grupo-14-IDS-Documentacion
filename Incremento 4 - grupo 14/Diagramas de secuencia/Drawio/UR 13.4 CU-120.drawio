@@ -1,0 +1,1317 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Flujo General" id="FlujoGeneral">
+    <mxGraphModel dx="1651" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FlujoGeneral-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="2666" width="4055" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-120: Vinculando insumos a pedido de instalación&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="600" x="2037.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="2976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Instalacion_Detalles&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="715" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-26" parent="FlujoGeneral-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1148" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-30" parent="FlujoGeneral-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="420" width="10" x="95" y="1306" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-39" parent="FlujoGeneral-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="742" width="10" x="95" y="1752" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="1015" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-25" parent="FlujoGeneral-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1058" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-29" parent="FlujoGeneral-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="330" width="10" x="95" y="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-38" parent="FlujoGeneral-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="638" width="10" x="95" y="1804" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="1405" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-19" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="216" width="10" x="95" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-24" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="354" width="10" x="95" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-28" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="126" width="10" x="95" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-37" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="506" width="10" x="95" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="1705" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-17" parent="FlujoGeneral-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="2005" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-18" parent="FlujoGeneral-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-32" parent="FlujoGeneral-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1984" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="2305" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-20" parent="FlujoGeneral-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Producto_Terminado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="2605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-21" parent="FlujoGeneral-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="2905" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-22" parent="FlujoGeneral-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="3205" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-23" parent="FlujoGeneral-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-27" parent="FlujoGeneral-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1448" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-31" parent="FlujoGeneral-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1908" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-35" parent="FlujoGeneral-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2212" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="3505" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-33" parent="FlujoGeneral-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Reserva_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="3805" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-34" parent="FlujoGeneral-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2136" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2556" width="200" x="4105" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-36" parent="FlujoGeneral-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2288" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-40" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="2402" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona una venta en estado &quot;aprobada&quot; o &quot;en&lt;br&gt;proceso&quot; de la lista de pedidos de instalación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="810" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la vinculación vigente y&lt;br&gt;los insumos sugeridos para la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="596" as="sourcePoint" />
+            <mxPoint x="1110" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar la venta y la vinculación existente del pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="648" as="sourcePoint" />
+            <mxPoint x="1500" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener la venta con su estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="686" as="sourcePoint" />
+            <mxPoint x="1800" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar la venta en estado&lt;br&gt;&quot;aprobada&quot; o &quot;en proceso&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="738" as="sourcePoint" />
+            <mxPoint x="1510" y="738" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener el pedido de instalación de la venta con sus insumos vinculados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="776" as="sourcePoint" />
+            <mxPoint x="2100" y="776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar que el pedido no tiene insumos vinculados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="814" as="sourcePoint" />
+            <mxPoint x="1510" y="814" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar la venta y el resultado de la verificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="852" as="sourcePoint" />
+            <mxPoint x="1120" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-49" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="9. Verificar si el pedido ya tiene insumos vinculados">
+          <mxGeometry relative="1" x="0.0068" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="876" />
+              <mxPoint x="1245" y="922" />
+            </Array>
+            <mxPoint x="1120" y="876" as="sourcePoint" />
+            <mxPoint x="1120" y="922" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="10. Consultar la receta de cada ítem&lt;br&gt;de la venta y el stock de sus insumos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="976" as="sourcePoint" />
+            <mxPoint x="1500" y="976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Obtener los ítems de la venta con su tipo de puerta y su cantidad de puertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1014" as="sourcePoint" />
+            <mxPoint x="2400" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="12. Retornar los ítems de la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2400" y="1052" as="sourcePoint" />
+            <mxPoint x="1510" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Obtener los insumos del área Instalación de cada receta, con su cantidad, su merma y si su cantidad depende de las medidas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1090" as="sourcePoint" />
+            <mxPoint x="2700" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-54" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="14. Retornar los insumos de instalación de las recetas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2700" y="1128" as="sourcePoint" />
+            <mxPoint x="1510" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="15. Obtener el nombre y la unidad de medida de cada insumo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1166" as="sourcePoint" />
+            <mxPoint x="3000" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Retornar los datos de los materiales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3000" y="1204" as="sourcePoint" />
+            <mxPoint x="1510" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="17. Obtener la cantidad física y la reservada de cada insumo en cada bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1242" as="sourcePoint" />
+            <mxPoint x="3300" y="1242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-58" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="18. Retornar el stock de cada insumo por bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="1280" as="sourcePoint" />
+            <mxPoint x="1510" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-59" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="19. Entregar la lista de insumos sugeridos y su stock">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1318" as="sourcePoint" />
+            <mxPoint x="1120" y="1318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-60" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="20. Verificar que haya insumos&lt;br&gt;sugeridos para el pedido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1245" y="1342" />
+              <mxPoint x="1245" y="1388" />
+            </Array>
+            <mxPoint x="1120" y="1342" as="sourcePoint" />
+            <mxPoint x="1120" y="1388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-61" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="21. Calcular la cantidad sugerida y&amp;nbsp;&amp;nbsp;usa la cantidad de&lt;br&gt;referencia de una puerta estándar en las líneas con fórmula">
+          <mxGeometry relative="1" x="-0.0062" y="35" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="1414" />
+              <mxPoint x="1245" y="1488" />
+            </Array>
+            <mxPoint x="1120" y="1414" as="sourcePoint" />
+            <mxPoint x="1120" y="1488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-62" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="22. Preseleccionar la bodega principal de cada insumo entre las bodegas&amp;nbsp;&lt;div&gt;con stock e indica si el stock alcanza en ella&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0258" y="65" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="1514" />
+              <mxPoint x="1245" y="1574" />
+            </Array>
+            <mxPoint x="1120" y="1514" as="sourcePoint" />
+            <mxPoint x="1120" y="1574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-63" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="23. Retornar los insumos sugeridos con su cantidad,&amp;nbsp;&lt;div&gt;su bodega principal y si el stock alcanza&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1110" y="1642" as="sourcePoint" />
+            <mxPoint x="820" y="1642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-64" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="24. Despliega los insumos sugeridos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1680" as="sourcePoint" />
+            <mxPoint x="370" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-65" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="25. Revisa las cantidades a reservar, ajusta&lt;br&gt;las que correspondan y agrega o quita insumos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1732" as="sourcePoint" />
+            <mxPoint x="810" y="1732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-66" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="26. Enviar las cantidades a reservar&lt;br&gt;por insumo con su bodega principal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1784" as="sourcePoint" />
+            <mxPoint x="1110" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-67" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="27. Consultar el stock disponible de cada&lt;br&gt;insumo en todas las bodegas activas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="1836" as="sourcePoint" />
+            <mxPoint x="1500" y="1836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-68" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="28. Obtener la cantidad física y la reservada de cada insumo por bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1874" as="sourcePoint" />
+            <mxPoint x="3300" y="1874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-69" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="29. Retornar stock disponible suficiente para todos los insumos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="1912" as="sourcePoint" />
+            <mxPoint x="1510" y="1912" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-70" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="30. Entregar el stock disponible por insumo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1950" as="sourcePoint" />
+            <mxPoint x="1120" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-71" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="31. Validar el stock disponible&amp;nbsp;de cada insumo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1245" y="1974" />
+              <mxPoint x="1245" y="2034" />
+            </Array>
+            <mxPoint x="1120" y="1974" as="sourcePoint" />
+            <mxPoint x="1120" y="2034" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-72" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="32. Retornar las cantidades validadas con el reparto&amp;nbsp;&lt;div&gt;previsto por bodega y solicita confirmar&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="2102" as="sourcePoint" />
+            <mxPoint x="820" y="2102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-73" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="33. Solicita confirmar la vinculación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2140" as="sourcePoint" />
+            <mxPoint x="370" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-74" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="34. Confirma la vinculación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="2178" as="sourcePoint" />
+            <mxPoint x="810" y="2178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-75" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="35. Enviar la confirmación&lt;br&gt;de la vinculación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="2230" as="sourcePoint" />
+            <mxPoint x="1110" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-76" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="36. Solicitar reservar cada insumo por lote según FIFO en&lt;br&gt;su bodega principal y completar lo que falte desde las&lt;br&gt;demás bodegas activas, la de mayor disponible primero">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="2296" as="sourcePoint" />
+            <mxPoint x="1500" y="2296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-77" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="37. Obtener los lotes con stock disponible de cada insumo, ordenados por fecha de ingreso, primero en la bodega principal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2334" as="sourcePoint" />
+            <mxPoint x="3300" y="2334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-78" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="38. Retornar los lotes a asignar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="2372" as="sourcePoint" />
+            <mxPoint x="1510" y="2372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-79" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="39. Insertar el pedido de instalación de la venta con su fecha y su usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2410" as="sourcePoint" />
+            <mxPoint x="2100" y="2410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-80" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="40. Confirmar el registro del pedido de instalación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="2448" as="sourcePoint" />
+            <mxPoint x="1510" y="2448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-81" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="41. Insertar cada insumo con su cantidad requerida y su bodega principal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2486" as="sourcePoint" />
+            <mxPoint x="3600" y="2486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-82" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="42. Confirmar el registro de los insumos del pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3600" y="2524" as="sourcePoint" />
+            <mxPoint x="1510" y="2524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-83" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="43. Insertar por cada lote su reserva con la cantidad, el lote, la bodega, la venta, la fecha y el usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2562" as="sourcePoint" />
+            <mxPoint x="3900" y="2562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-84" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="44. Confirmar el registro de las reservas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3900" y="2600" as="sourcePoint" />
+            <mxPoint x="1510" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-85" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="45. Incrementar la cantidad reservada de cada lote">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2638" as="sourcePoint" />
+            <mxPoint x="3300" y="2638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-86" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="46. Confirmar la actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="2676" as="sourcePoint" />
+            <mxPoint x="1510" y="2676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-87" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="47. Insertar el estado &quot;Vinculado&quot; con su fecha y su usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2714" as="sourcePoint" />
+            <mxPoint x="4200" y="2714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-88" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="48. Confirmar el registro del estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4200" y="2752" as="sourcePoint" />
+            <mxPoint x="1510" y="2752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-89" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="49. Confirmar la persistencia de la vinculación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="2790" as="sourcePoint" />
+            <mxPoint x="1120" y="2790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-90" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="50. Retornar la confirmación de los insumos vinculados&lt;br&gt;con sus lotes y sus bodegas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="2856" as="sourcePoint" />
+            <mxPoint x="820" y="2856" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-91" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="51. Muestra la confirmación de la vinculación con el reparto por bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2908" as="sourcePoint" />
+            <mxPoint x="370" y="2908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 1" id="Excepcion1">
+    <mxGraphModel dx="1376" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1252" width="4055" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-120: Vinculando insumos a pedido de instalación&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="2037.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Instalacion_Detalles&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="715" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-26" parent="Excepcion1-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="962" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="1015" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-25" parent="Excepcion1-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="858" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="1405" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-19" parent="Excepcion1-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="216" width="10" x="95" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-24" parent="Excepcion1-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="354" width="10" x="95" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="1705" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-17" parent="Excepcion1-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="2005" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-18" parent="Excepcion1-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="2305" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-20" parent="Excepcion1-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Producto_Terminado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="2605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-21" parent="Excepcion1-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="2905" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-22" parent="Excepcion1-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="3205" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-23" parent="Excepcion1-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="3505" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Reserva_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="3805" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1142" width="200" x="4105" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-27" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="988" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona una venta en estado &quot;aprobada&quot; o &quot;en&lt;br&gt;proceso&quot; de la lista de pedidos de instalación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="810" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la vinculación vigente y&lt;br&gt;los insumos sugeridos para la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="596" as="sourcePoint" />
+            <mxPoint x="1110" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar la venta y la vinculación existente del pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="648" as="sourcePoint" />
+            <mxPoint x="1500" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener la venta con su estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="686" as="sourcePoint" />
+            <mxPoint x="1800" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar la venta en estado&lt;br&gt;&quot;aprobada&quot; o &quot;en proceso&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="738" as="sourcePoint" />
+            <mxPoint x="1510" y="738" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener el pedido de instalación de la venta con sus insumos vinculados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="776" as="sourcePoint" />
+            <mxPoint x="2100" y="776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar que el pedido no tiene insumos vinculados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="814" as="sourcePoint" />
+            <mxPoint x="1510" y="814" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar la venta y el resultado de la verificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="852" as="sourcePoint" />
+            <mxPoint x="1120" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-36" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="9. Verificar si el pedido ya tiene insumos vinculados">
+          <mxGeometry relative="1" x="0.0068" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="876" />
+              <mxPoint x="1245" y="922" />
+            </Array>
+            <mxPoint x="1120" y="876" as="sourcePoint" />
+            <mxPoint x="1120" y="922" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="10. Consultar la receta de cada ítem de la venta y el stock de sus insumos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="976" as="sourcePoint" />
+            <mxPoint x="1500" y="976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Obtener los ítems de la venta con su tipo de puerta y su cantidad de puertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1014" as="sourcePoint" />
+            <mxPoint x="2400" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="12. Retornar los ítems de la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2400" y="1052" as="sourcePoint" />
+            <mxPoint x="1510" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Obtener los insumos del área Instalación de cada receta, con su cantidad, su merma y si su cantidad depende de las medidas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1090" as="sourcePoint" />
+            <mxPoint x="2700" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="14. Retornar que las recetas no tienen insumos del área Instalación o que los ítems no indican receta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2700" y="1128" as="sourcePoint" />
+            <mxPoint x="1510" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="15. Obtener el nombre y la unidad de medida de cada insumo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1166" as="sourcePoint" />
+            <mxPoint x="3000" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Retornar los datos de los materiales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3000" y="1204" as="sourcePoint" />
+            <mxPoint x="1510" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="17. Obtener la cantidad física y la reservada de cada insumo en cada bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1242" as="sourcePoint" />
+            <mxPoint x="3300" y="1242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="18. Retornar el stock de cada insumo por bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="1280" as="sourcePoint" />
+            <mxPoint x="1510" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="19. Entregar la lista de insumos sugeridos y su stock">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1318" as="sourcePoint" />
+            <mxPoint x="1120" y="1318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-47" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="20. Verificar los insumos sugeridos y detecta que no hay ninguno">
+          <mxGeometry relative="1" x="0.0338" y="55" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="1342" />
+              <mxPoint x="1245" y="1388" />
+            </Array>
+            <mxPoint x="1120" y="1342" as="sourcePoint" />
+            <mxPoint x="1120" y="1388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="21. Retornar la lista de insumos vacía junto con el aviso">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1442" as="sourcePoint" />
+            <mxPoint x="820" y="1442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="22. Informa la situación y permite cargar los insumos manualmente antes de continuar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1494" as="sourcePoint" />
+            <mxPoint x="370" y="1494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 2" id="Excepcion2">
+    <mxGraphModel dx="1376" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="2724" width="4055" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-120: Vinculando insumos a pedido de instalación&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="2037.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="3034" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Instalacion_Detalles&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="715" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-26" parent="Excepcion2-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1148" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-30" parent="Excepcion2-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="478" width="10" x="95" y="1306" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-39" parent="Excepcion2-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="742" width="10" x="95" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="1015" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-25" parent="Excepcion2-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1058" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-29" parent="Excepcion2-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="374" width="10" x="95" y="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-38" parent="Excepcion2-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="638" width="10" x="95" y="1862" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="1405" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-19" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="216" width="10" x="95" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-24" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="354" width="10" x="95" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-28" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="126" width="10" x="95" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-37" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="506" width="10" x="95" y="1928" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="1705" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-17" parent="Excepcion2-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="2005" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-18" parent="Excepcion2-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-32" parent="Excepcion2-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2042" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="2305" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-20" parent="Excepcion2-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Producto_Terminado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="2605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-21" parent="Excepcion2-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="2905" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-22" parent="Excepcion2-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="3205" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-23" parent="Excepcion2-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-27" parent="Excepcion2-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1448" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-31" parent="Excepcion2-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1966" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-35" parent="Excepcion2-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="3505" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-33" parent="Excepcion2-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2118" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Reserva_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="3805" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-34" parent="Excepcion2-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2194" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="2614" width="200" x="4105" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-36" parent="Excepcion2-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="2346" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-40" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="2460" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona una venta en estado &quot;aprobada&quot; o &quot;en&lt;br&gt;proceso&quot; de la lista de pedidos de instalación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="810" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la vinculación vigente y&lt;br&gt;los insumos sugeridos para la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="596" as="sourcePoint" />
+            <mxPoint x="1110" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar la venta y la vinculación existente del pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="648" as="sourcePoint" />
+            <mxPoint x="1500" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener la venta con su estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="686" as="sourcePoint" />
+            <mxPoint x="1800" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar la venta en estado&lt;br&gt;&quot;aprobada&quot; o &quot;en proceso&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="738" as="sourcePoint" />
+            <mxPoint x="1510" y="738" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener el pedido de instalación de la venta con sus insumos vinculados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="776" as="sourcePoint" />
+            <mxPoint x="2100" y="776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar que el pedido no tiene insumos vinculados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="814" as="sourcePoint" />
+            <mxPoint x="1510" y="814" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar la venta y el resultado de la verificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="852" as="sourcePoint" />
+            <mxPoint x="1120" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-49" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="9. Verificar si el pedido ya tiene insumos vinculados">
+          <mxGeometry relative="1" x="0.0068" y="35" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="876" />
+              <mxPoint x="1245" y="922" />
+            </Array>
+            <mxPoint x="1120" y="876" as="sourcePoint" />
+            <mxPoint x="1120" y="922" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="10. Consultar la receta de cada ítem&lt;br&gt;de la venta y el stock de sus insumos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="976" as="sourcePoint" />
+            <mxPoint x="1500" y="976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Obtener los ítems de la venta con su tipo de puerta y su cantidad de puertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1014" as="sourcePoint" />
+            <mxPoint x="2400" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="12. Retornar los ítems de la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2400" y="1052" as="sourcePoint" />
+            <mxPoint x="1510" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Obtener los insumos del área Instalación de cada receta, con su cantidad, su merma y si su cantidad depende de las medidas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1090" as="sourcePoint" />
+            <mxPoint x="2700" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-54" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="14. Retornar los insumos de instalación de las recetas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2700" y="1128" as="sourcePoint" />
+            <mxPoint x="1510" y="1128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="15. Obtener el nombre y la unidad de medida de cada insumo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1166" as="sourcePoint" />
+            <mxPoint x="3000" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Retornar los datos de los materiales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3000" y="1204" as="sourcePoint" />
+            <mxPoint x="1510" y="1204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="17. Obtener la cantidad física y la reservada de cada insumo en cada bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1242" as="sourcePoint" />
+            <mxPoint x="3300" y="1242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-58" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="18. Retornar el stock de cada insumo por bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="1280" as="sourcePoint" />
+            <mxPoint x="1510" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-59" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="19. Entregar la lista de insumos sugeridos y su stock">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1318" as="sourcePoint" />
+            <mxPoint x="1120" y="1318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-60" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="20. Verificar que haya insumos sugeridos para el pedido">
+          <mxGeometry relative="1" x="0.0338" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="1342" />
+              <mxPoint x="1245" y="1388" />
+            </Array>
+            <mxPoint x="1120" y="1342" as="sourcePoint" />
+            <mxPoint x="1120" y="1388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-61" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="21. Calcular la cantidad sugerida y&amp;nbsp;&amp;nbsp;usa la cantidad de&lt;br&gt;referencia de una puerta estándar en las líneas con fórmula">
+          <mxGeometry relative="1" x="-0.0062" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="1414" />
+              <mxPoint x="1245" y="1488" />
+            </Array>
+            <mxPoint x="1120" y="1414" as="sourcePoint" />
+            <mxPoint x="1120" y="1488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-62" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="22. Preseleccionar la bodega principal de cada insumo entre las bodegas&amp;nbsp;&lt;div&gt;con stock e indica si el stock alcanza en ella&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0258" y="65" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="1514" />
+              <mxPoint x="1245" y="1574" />
+            </Array>
+            <mxPoint x="1120" y="1514" as="sourcePoint" />
+            <mxPoint x="1120" y="1574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-63" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="23. Retornar los insumos sugeridos con su cantidad,&amp;nbsp;&lt;div&gt;su bodegaprincipal y si el stock alcanza&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1642" as="sourcePoint" />
+            <mxPoint x="820" y="1642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-64" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="24. Despliega los insumos sugeridos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1680" as="sourcePoint" />
+            <mxPoint x="370" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-65" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="25. Revisa las cantidades a reservar, ajusta&lt;br&gt;las que correspondan y agrega o quita insumos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1732" as="sourcePoint" />
+            <mxPoint x="810" y="1732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-66" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="26. Enviar las cantidades a reservar&lt;br&gt;por insumo con su bodega principal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1784" as="sourcePoint" />
+            <mxPoint x="1110" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-67" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="27. Consultar el stock disponible de cada&lt;br&gt;insumo en todas las bodegas activas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="1836" as="sourcePoint" />
+            <mxPoint x="1500" y="1836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-68" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="28. Obtener la cantidad física y la reservada de cada insumo por bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="1874" as="sourcePoint" />
+            <mxPoint x="3300" y="1874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-69" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="29. Retornar stock disponible insuficiente para uno o más insumos, sumando todas las bodegas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="1912" as="sourcePoint" />
+            <mxPoint x="1510" y="1912" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-70" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="30. Entregar el stock disponible por insumo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1950" as="sourcePoint" />
+            <mxPoint x="1120" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-71" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="31. Validar el stock por insumo y&lt;br&gt;detecta que no alcanza para uno o más">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1245" y="1974" />
+              <mxPoint x="1245" y="2020" />
+            </Array>
+            <mxPoint x="1120" y="1974" as="sourcePoint" />
+            <mxPoint x="1120" y="2020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-72" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="32. Armar el faltante por insumo y&lt;br&gt;habilita una vinculación parcial">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1245" y="2046" />
+              <mxPoint x="1245" y="2092" />
+            </Array>
+            <mxPoint x="1120" y="2046" as="sourcePoint" />
+            <mxPoint x="1120" y="2092" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-73" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="33. Retornar el faltante por insumo junto&lt;br&gt;con la opción de vinculación parcial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="2146" as="sourcePoint" />
+            <mxPoint x="820" y="2146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-74" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="34. Informa el faltante por insumo y&lt;br&gt;permite registrar una vinculación parcial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2198" as="sourcePoint" />
+            <mxPoint x="370" y="2198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-75" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="35. Confirma la vinculación parcial con las cantidades disponibles">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="2236" as="sourcePoint" />
+            <mxPoint x="810" y="2236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-76" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="36. Enviar la confirmación&lt;br&gt;de la vinculación parcial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="2288" as="sourcePoint" />
+            <mxPoint x="1110" y="2288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-77" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="37. Solicitar reservar cada insumo por lote según FIFO en&lt;br&gt;su bodega principal y completar lo que falte desde las&lt;br&gt;demás bodegas activas, la de mayor disponible primero">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="2354" as="sourcePoint" />
+            <mxPoint x="1500" y="2354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-78" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="38. Obtener los lotes con stock disponible de cada insumo, ordenados por fecha de ingreso (FIFO), primero en la bodega principal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2392" as="sourcePoint" />
+            <mxPoint x="3300" y="2392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-79" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="39. Retornar los lotes a asignar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="2430" as="sourcePoint" />
+            <mxPoint x="1510" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-80" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="40. Insertar el pedido de instalación de la venta con su fecha y su usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2468" as="sourcePoint" />
+            <mxPoint x="2100" y="2468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-81" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="41. Confirmar el registro del pedido de instalación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="2506" as="sourcePoint" />
+            <mxPoint x="1510" y="2506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-82" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="42. Insertar cada insumo con su cantidad requerida y su bodega principal">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2544" as="sourcePoint" />
+            <mxPoint x="3600" y="2544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-83" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="43. Confirmar el registro de los insumos del pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3600" y="2582" as="sourcePoint" />
+            <mxPoint x="1510" y="2582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-84" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="44. Insertar por cada lote su reserva con la cantidad disponible, el lote, la bodega, la venta, la fecha y el usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2620" as="sourcePoint" />
+            <mxPoint x="3900" y="2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-85" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="45. Confirmar el registro de las reservas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3900" y="2658" as="sourcePoint" />
+            <mxPoint x="1510" y="2658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-86" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="46. Incrementar la cantidad reservada de cada lote">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2696" as="sourcePoint" />
+            <mxPoint x="3300" y="2696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-87" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="47. Confirmar la actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3300" y="2734" as="sourcePoint" />
+            <mxPoint x="1510" y="2734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-88" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="48. Insertar el estado &quot;Vinculado&quot; con su fecha y su usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2772" as="sourcePoint" />
+            <mxPoint x="4200" y="2772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-89" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="49. Confirmar el registro del estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4200" y="2810" as="sourcePoint" />
+            <mxPoint x="1510" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-90" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="50. Confirmar la persistencia de la vinculación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="2848" as="sourcePoint" />
+            <mxPoint x="1120" y="2848" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-91" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="51. Retornar la confirmación de la vinculación parcial con&lt;br&gt;el faltante de cada insumo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="2914" as="sourcePoint" />
+            <mxPoint x="820" y="2914" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-92" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="52. Muestra la vinculación parcial con el faltante de cada insumo a la vista">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2966" as="sourcePoint" />
+            <mxPoint x="370" y="2966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 3" id="Excepcion3">
+    <mxGraphModel dx="1139" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="842" width="4055" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-120: Vinculando insumos a pedido de instalación&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="2037.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Instalacion_Detalles&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="715" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-21" parent="Excepcion3-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="552" width="10" x="95" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_pedidosVenta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="1015" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-20" parent="Excepcion3-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="420" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="1405" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-19" parent="Excepcion3-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="95" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="1705" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-17" parent="Excepcion3-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="2005" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-18" parent="Excepcion3-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="2305" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Producto_Terminado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="2605" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="2905" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="3205" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Detalle&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="3505" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Reserva_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="3805" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Preparacion_Pedido_Estado&lt;/u&gt;" vertex="1">
+          <mxGeometry height="732" width="200" x="4105" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-22" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="578" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona una venta en estado &quot;aprobada&quot; o &quot;en&lt;br&gt;proceso&quot; de la lista de pedidos de instalación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="810" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar la vinculación vigente y&lt;br&gt;los insumos sugeridos para la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="596" as="sourcePoint" />
+            <mxPoint x="1110" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar la venta y la vinculación existente del pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1120" y="648" as="sourcePoint" />
+            <mxPoint x="1500" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Obtener la venta con su estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="686" as="sourcePoint" />
+            <mxPoint x="1800" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Retornar la venta en estado&lt;br&gt;&quot;aprobada&quot; o &quot;en proceso&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="738" as="sourcePoint" />
+            <mxPoint x="1510" y="738" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Obtener el pedido de instalación de la venta con sus insumos vinculados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="776" as="sourcePoint" />
+            <mxPoint x="2100" y="776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="7. Retornar el pedido ya vinculado con sus insumos,&lt;br&gt;sus cantidades reservadas, sus lotes y sus bodegas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="828" as="sourcePoint" />
+            <mxPoint x="1510" y="828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Entregar la venta y el resultado de la verificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="866" as="sourcePoint" />
+            <mxPoint x="1120" y="866" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-31" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" target="Excepcion3-20" value="9. Verificar la vinculación del pedido y detecta que ya tiene&amp;nbsp;&lt;div&gt;insumos vinculados&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0203" y="45" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1245" y="890" />
+              <mxPoint x="1245" y="936" />
+            </Array>
+            <mxPoint x="1120" y="890" as="sourcePoint" />
+            <mxPoint x="1120" y="936" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="10. Retornar la vinculación vigente junto&lt;br&gt;con la opción de modificarla">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1004" as="sourcePoint" />
+            <mxPoint x="820" y="1004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="11. Muestra la vinculación vigente y permite modificarla en lugar de crear una nueva,&lt;div&gt;respetando el FIFO para aumentos y disminuciones&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1084" as="sourcePoint" />
+            <mxPoint x="370" y="1084" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

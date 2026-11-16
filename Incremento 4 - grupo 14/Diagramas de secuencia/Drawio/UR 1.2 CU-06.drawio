@@ -1,0 +1,656 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Flujo General" id="FlujoGeneral">
+    <mxGraphModel dx="1942" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FlujoGeneral-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1618" width="2195" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-06: Duplicando producto existente&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="600" x="1107.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1508" width="200" x="565" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-22" parent="FlujoGeneral-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1346" width="10" x="95" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1508" width="200" x="955" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-21" parent="FlujoGeneral-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1104" width="10" x="95" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1508" width="200" x="1345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-13" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="95" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-15" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="154" width="10" x="95" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-18" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="216" width="10" x="95" y="974" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-20" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="126" width="10" x="95" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1508" width="200" x="1645" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-12" parent="FlujoGeneral-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-14" parent="FlujoGeneral-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-16" parent="FlujoGeneral-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1012" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Codigo_Barras&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1508" width="200" x="1945" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-17" parent="FlujoGeneral-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1508" width="200" x="2245" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-19" parent="FlujoGeneral-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="1268" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-23" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1368" width="10" x="360" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Elige duplicar un producto de la lista">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="sourcePoint" />
+            <mxPoint x="660" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="2. Muestra el SKU del producto base&lt;br&gt;y solicita el SKU del producto nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="582" as="sourcePoint" />
+            <mxPoint x="370" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa el SKU nuevo y confirma">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="620" as="sourcePoint" />
+            <mxPoint x="660" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-27" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="4. Verificar que se haya ingresado&lt;br&gt;el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="644" />
+              <mxPoint x="795" y="690" />
+            </Array>
+            <mxPoint x="670" y="644" as="sourcePoint" />
+            <mxPoint x="670" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Enviar el SKU base y el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="730" as="sourcePoint" />
+            <mxPoint x="1050" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="768" as="sourcePoint" />
+            <mxPoint x="1440" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Obtener el producto&lt;br&gt;base con todos sus datos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="820" as="sourcePoint" />
+            <mxPoint x="1740" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Retornar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="858" as="sourcePoint" />
+            <mxPoint x="1450" y="858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="9. Entregar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="896" as="sourcePoint" />
+            <mxPoint x="1060" y="896" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-33" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar que el producto&lt;br&gt;base siga registrado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="920" />
+              <mxPoint x="1185" y="966" />
+            </Array>
+            <mxPoint x="1060" y="920" as="sourcePoint" />
+            <mxPoint x="1060" y="966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Consultar si el SKU nuevo ya existe">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="1006" as="sourcePoint" />
+            <mxPoint x="1440" y="1006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="12. Obtener un producto con el SKU&lt;br&gt;nuevo, sin distinguir mayúsculas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1058" as="sourcePoint" />
+            <mxPoint x="1740" y="1058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="13. Retornar que no hay&lt;br&gt;un producto con ese SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="1110" as="sourcePoint" />
+            <mxPoint x="1450" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="14. Entregar el resultado de la verificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1148" as="sourcePoint" />
+            <mxPoint x="1060" y="1148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-38" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="15. Verificar que el SKU&lt;br&gt;nuevo no exista">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="1172" />
+              <mxPoint x="1185" y="1218" />
+            </Array>
+            <mxPoint x="1060" y="1172" as="sourcePoint" />
+            <mxPoint x="1060" y="1218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-39" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="16. Armar la copia en estado activo con&lt;br&gt;el nombre del base seguido de &quot;(copia)&quot;,&lt;br&gt;su descripción, presentación, unidad de&lt;br&gt;medida, categorías, criticidad, tipo&lt;br&gt;rotativo o especial y niveles de stock,&lt;br&gt;sin proveedores, precios ni stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="1244" />
+              <mxPoint x="1185" y="1346" />
+            </Array>
+            <mxPoint x="1060" y="1244" as="sourcePoint" />
+            <mxPoint x="1060" y="1346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="17. Solicitar crear el producto nuevo y su&lt;br&gt;código de barras en una sola operación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="1400" as="sourcePoint" />
+            <mxPoint x="1440" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="18. Insertar el producto nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1438" as="sourcePoint" />
+            <mxPoint x="1740" y="1438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="19. Confirmar la inserción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="1476" as="sourcePoint" />
+            <mxPoint x="1450" y="1476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="20. Insertar el código de barras interno del producto nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1514" as="sourcePoint" />
+            <mxPoint x="2040" y="1514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="21. Retornar el código de barras generado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2040" y="1552" as="sourcePoint" />
+            <mxPoint x="1450" y="1552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="22. Confirmar la persistencia del&lt;br&gt;producto y de su código de barras">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1604" as="sourcePoint" />
+            <mxPoint x="1060" y="1604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="23. Solicitar registrar la duplicación del producto&lt;br&gt;en la auditoría, después de confirmar la operación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="1656" as="sourcePoint" />
+            <mxPoint x="1440" y="1656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="24. Insertar el evento con el producto base, el producto nuevo, el usuario y la fecha">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1694" as="sourcePoint" />
+            <mxPoint x="2340" y="1694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="25. Confirmar el registro del evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2340" y="1732" as="sourcePoint" />
+            <mxPoint x="1450" y="1732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="26. Confirmar el registro de la auditoría">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1770" as="sourcePoint" />
+            <mxPoint x="1060" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="27. Retornar la confirmación con el SKU y&lt;br&gt;el código de barras del producto nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1822" as="sourcePoint" />
+            <mxPoint x="670" y="1822" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="28. Muestra el producto nuevo en la lista">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1860" as="sourcePoint" />
+            <mxPoint x="370" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 1" id="Excepcion1">
+    <mxGraphModel dx="2201" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="830" width="2195" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-06: Duplicando producto existente&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="1107.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="565" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-15" parent="Excepcion1-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="568" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="955" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-14" parent="Excepcion1-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="302" width="10" x="95" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="1345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-13" parent="Excepcion1-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="154" width="10" x="95" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="1645" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-12" parent="Excepcion1-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Codigo_Barras&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="1945" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="2245" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-16" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="580" width="10" x="360" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Elige duplicar un producto de la lista">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="sourcePoint" />
+            <mxPoint x="660" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="2. Muestra el SKU del producto base&lt;br&gt;y solicita el SKU del producto nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="582" as="sourcePoint" />
+            <mxPoint x="370" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa el SKU nuevo y confirma">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="620" as="sourcePoint" />
+            <mxPoint x="660" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-20" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="4. Verificar que se haya ingresado&lt;br&gt;el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="644" />
+              <mxPoint x="795" y="690" />
+            </Array>
+            <mxPoint x="670" y="644" as="sourcePoint" />
+            <mxPoint x="670" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Enviar el SKU base y el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="730" as="sourcePoint" />
+            <mxPoint x="1050" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="768" as="sourcePoint" />
+            <mxPoint x="1440" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Obtener el producto&lt;br&gt;base con todos sus datos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="820" as="sourcePoint" />
+            <mxPoint x="1740" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Retornar que el producto&lt;br&gt;base ya no existe">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="872" as="sourcePoint" />
+            <mxPoint x="1450" y="872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="9. Entregar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="910" as="sourcePoint" />
+            <mxPoint x="1060" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-26" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar el producto base y&lt;br&gt;detecta que ya no existe">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="934" />
+              <mxPoint x="1185" y="980" />
+            </Array>
+            <mxPoint x="1060" y="934" as="sourcePoint" />
+            <mxPoint x="1060" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="11. Retornar el error sin crear el producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1020" as="sourcePoint" />
+            <mxPoint x="670" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="12. Informa que el producto base no fue&lt;br&gt;encontrado y cancela la duplicación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1072" as="sourcePoint" />
+            <mxPoint x="370" y="1072" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 2" id="Excepcion2">
+    <mxGraphModel dx="2201" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1068" width="2195" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-06: Duplicando producto existente&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="1107.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="958" width="200" x="565" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-17" parent="Excepcion2-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="806" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="958" width="200" x="955" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-16" parent="Excepcion2-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="540" width="10" x="95" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="958" width="200" x="1345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-13" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="95" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-15" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="154" width="10" x="95" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="958" width="200" x="1645" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-12" parent="Excepcion2-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-14" parent="Excepcion2-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Codigo_Barras&lt;/u&gt;" vertex="1">
+          <mxGeometry height="958" width="200" x="1945" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="958" width="200" x="2245" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-18" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="818" width="10" x="360" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Elige duplicar un producto de la lista">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="sourcePoint" />
+            <mxPoint x="660" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="2. Muestra el SKU del producto base&lt;br&gt;y solicita el SKU del producto nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="582" as="sourcePoint" />
+            <mxPoint x="370" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa el SKU nuevo y confirma">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="620" as="sourcePoint" />
+            <mxPoint x="660" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-22" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="4. Verificar que se haya ingresado&lt;br&gt;el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="644" />
+              <mxPoint x="795" y="690" />
+            </Array>
+            <mxPoint x="670" y="644" as="sourcePoint" />
+            <mxPoint x="670" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Enviar el SKU base y el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="730" as="sourcePoint" />
+            <mxPoint x="1050" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="768" as="sourcePoint" />
+            <mxPoint x="1440" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Obtener el producto&lt;br&gt;base con todos sus datos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="820" as="sourcePoint" />
+            <mxPoint x="1740" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Retornar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="858" as="sourcePoint" />
+            <mxPoint x="1450" y="858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="9. Entregar el producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="896" as="sourcePoint" />
+            <mxPoint x="1060" y="896" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-28" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar que el producto&lt;br&gt;base siga registrado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="920" />
+              <mxPoint x="1185" y="966" />
+            </Array>
+            <mxPoint x="1060" y="920" as="sourcePoint" />
+            <mxPoint x="1060" y="966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Consultar si el SKU nuevo ya existe">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="1006" as="sourcePoint" />
+            <mxPoint x="1440" y="1006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="12. Obtener un producto con el SKU&lt;br&gt;nuevo, sin distinguir mayúsculas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1058" as="sourcePoint" />
+            <mxPoint x="1740" y="1058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="13. Retornar el producto&lt;br&gt;que ya usa ese SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="1110" as="sourcePoint" />
+            <mxPoint x="1450" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="14. Entregar el resultado de la verificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1148" as="sourcePoint" />
+            <mxPoint x="1060" y="1148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-33" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="15. Verificar el SKU nuevo y&lt;br&gt;detecta que ya existe">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="1172" />
+              <mxPoint x="1185" y="1218" />
+            </Array>
+            <mxPoint x="1060" y="1172" as="sourcePoint" />
+            <mxPoint x="1060" y="1218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Retornar el rechazo sin crear el producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1258" as="sourcePoint" />
+            <mxPoint x="670" y="1258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="17. Informa que el SKU ya existe&lt;br&gt;y solicita un código distinto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1310" as="sourcePoint" />
+            <mxPoint x="370" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 3" id="Excepcion3">
+    <mxGraphModel dx="2201" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="488" width="2195" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-06: Duplicando producto existente&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Excepción 3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="1107.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="378" width="200" x="565" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-12" parent="Excepcion3-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="226" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="378" width="200" x="955" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="378" width="200" x="1345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="378" width="200" x="1645" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Codigo_Barras&lt;/u&gt;" vertex="1">
+          <mxGeometry height="378" width="200" x="1945" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="378" width="200" x="2245" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-13" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="238" width="10" x="360" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion3-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Elige duplicar un producto de la lista">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="sourcePoint" />
+            <mxPoint x="660" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="2. Muestra el SKU del producto base&lt;br&gt;y solicita el SKU del producto nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="582" as="sourcePoint" />
+            <mxPoint x="370" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Confirma sin ingresar el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="620" as="sourcePoint" />
+            <mxPoint x="660" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-17" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="4. Verificar que se haya ingresado&lt;br&gt;el SKU nuevo y detecta que está vacío">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="644" />
+              <mxPoint x="795" y="690" />
+            </Array>
+            <mxPoint x="670" y="644" as="sourcePoint" />
+            <mxPoint x="670" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion3-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Solicita ingresar el SKU nuevo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="730" as="sourcePoint" />
+            <mxPoint x="370" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

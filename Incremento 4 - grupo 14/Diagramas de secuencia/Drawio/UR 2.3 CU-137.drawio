@@ -1,0 +1,1070 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="General" id="cell329">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1595" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="1515" width="1760" x="-220" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="cell1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1395" width="20" x="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell10" parent="cell1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cell112" parent="cell1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="cell2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="-150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cell3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1395" width="160" x="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cell11" parent="cell3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="155" width="10" x="75" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cell108" parent="cell3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="cell4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1395" width="160" x="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cell23" parent="cell4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="cell47" parent="cell4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="157.5" width="10" x="75" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cell69" parent="cell4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="75" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="cell88" parent="cell4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="75" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="cell104" parent="cell4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="1175" as="geometry" />
+        </mxCell>
+        <mxCell id="cell5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1395" width="160" x="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cell27" parent="cell5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="245" width="10" x="75" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="cell57" parent="cell5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="157.5" width="10" x="75" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="cell76" parent="cell5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="150" width="10" x="75" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="cell100" parent="cell5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="125" width="10" x="75" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="cell7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1395" width="160" x="910" as="geometry" />
+        </mxCell>
+        <mxCell id="cell31" parent="cell7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cell8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Anaquel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1395" width="160" x="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="cell39" parent="cell8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="75" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cell61" parent="cell8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="cell80" parent="cell8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="cell9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1395" width="160" x="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="cell96" parent="cell9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="75" y="1085" as="geometry" />
+        </mxCell>
+        <mxCell id="cell12" edge="1" parent="1" source="cell10" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell11" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="140" y="110" />
+            </Array>
+            <mxPoint x="-110" y="105" as="sourcePoint" />
+            <mxPoint x="160" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell13" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Selecciona un anaquel de la bodega y elige editarlo" vertex="1">
+          <mxGeometry height="30" width="220" x="-85" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="155" y="152" as="sourcePoint" />
+            <mxPoint x="-105" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell17" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2. Muestra la descripción vigente del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="-85" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="cell20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-105" y="195" as="sourcePoint" />
+            <mxPoint x="155" y="194.99999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell21" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3. Ingresa la nueva descripción y confirma" vertex="1">
+          <mxGeometry height="30" width="220" x="-85" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cell24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="165" y="239.5" as="sourcePoint" />
+            <mxPoint x="395" y="239.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell25" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4. Envía la nueva descripción del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="185" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="cell28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell27" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="405" y="285" as="sourcePoint" />
+            <mxPoint x="780" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell29" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5. Consulta la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="490" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cell32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell31" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="330" as="sourcePoint" />
+            <mxPoint x="1180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell33" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="6. Obtiene la bodega" vertex="1">
+          <mxGeometry height="30" width="185" x="785" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cell36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="985" y="375" as="sourcePoint" />
+            <mxPoint x="785" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell37" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="7. Retorna la bodega" vertex="1">
+          <mxGeometry height="30" width="185" x="785" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="cell40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell39" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="420" as="sourcePoint" />
+            <mxPoint x="1380" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell41" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="8. Obtiene el anaquel de esa bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="870" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="cell44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1185" y="465" as="sourcePoint" />
+            <mxPoint x="785" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell45" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Retorna el anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="880" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cell48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell47" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="510" as="sourcePoint" />
+            <mxPoint x="580" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell49" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Entrega la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="480" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cell52" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="11. Verifica que la bodega y el anaquel existan" vertex="1">
+          <mxGeometry height="30" width="220" x="490" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="cell55" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="12. Verifica que la descripción no esté vacía ni supere los 255 caracteres" vertex="1">
+          <mxGeometry height="30" width="300" x="450" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="cell58" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell57" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="405" y="645" as="sourcePoint" />
+            <mxPoint x="780" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell59" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="13. Consulta si otro anaquel de la bodega tiene la misma descripción" vertex="1">
+          <mxGeometry height="30" width="300" x="450" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="cell62" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell61" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="690" as="sourcePoint" />
+            <mxPoint x="1380" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell63" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="14. Obtiene otro anaquel de la bodega con esa descripción, sin distinguir mayúsculas" vertex="1">
+          <mxGeometry height="30" width="390" x="790" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="cell66" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1185" y="735" as="sourcePoint" />
+            <mxPoint x="785" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell67" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="15. Retorna que no hay otro anaquel con esa descripción" vertex="1">
+          <mxGeometry height="30" width="360" x="820" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cell70" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell69" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="780" as="sourcePoint" />
+            <mxPoint x="580" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell71" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="16. Entrega el resultado de la verificación" vertex="1">
+          <mxGeometry height="30" width="280" x="460" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="cell74" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="17. Verifica que la descripción no esté repetida en la bodega pero no lo está" vertex="1">
+          <mxGeometry height="30" width="315" x="440" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="cell77" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell76" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="405" y="870" as="sourcePoint" />
+            <mxPoint x="780" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell78" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="18. Solicita guardar la nueva descripción" vertex="1">
+          <mxGeometry height="30" width="220" x="480" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cell81" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell80" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="915" as="sourcePoint" />
+            <mxPoint x="1380" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell82" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="19. Actualiza la descripción del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="890" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="cell85" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1185" y="960" as="sourcePoint" />
+            <mxPoint x="785" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell86" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="20. Confirma la actualización" vertex="1">
+          <mxGeometry height="30" width="220" x="870" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="cell93" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="405" y="1080" as="sourcePoint" />
+            <mxPoint x="775" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell94" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="22. Solicita registrar el cambio de descripción del anaquel en la auditoría, después de confirmar la operación" vertex="1">
+          <mxGeometry height="30" width="315" x="430" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="cell97" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell96" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="1090" as="sourcePoint" />
+            <mxPoint x="1580" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell98" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="23. Inserta el evento con el cambio de descripción del anaquel, el usuario y la fecha" vertex="1">
+          <mxGeometry height="30" width="480" x="860" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="cell101" edge="1" parent="1" source="cell96" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.8267" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1280" y="1170" as="sourcePoint" />
+            <mxPoint x="785" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell105" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell104" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="1185" as="sourcePoint" />
+            <mxPoint x="580" y="1185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell106" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="25. Confirma el registro de la auditoría" vertex="1">
+          <mxGeometry height="30" width="220" x="490" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="cell109" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell108" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="395" y="1230" as="sourcePoint" />
+            <mxPoint x="200" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell110" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="26. Retorna la confirmación del anaquel actualizado" vertex="1">
+          <mxGeometry height="30" width="220" x="175" y="1197" as="geometry" />
+        </mxCell>
+        <mxCell id="cell113" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell112" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="155" y="1275" as="sourcePoint" />
+            <mxPoint x="-110" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell114" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="27. Muestra el anaquel con su nueva descripción el stock ubicado en él no cambia" vertex="1">
+          <mxGeometry height="30" width="220" x="-85" y="1227" as="geometry" />
+        </mxCell>
+        <mxCell id="cell115" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-137: Editando anaquel" vertex="1">
+          <mxGeometry height="30" width="430" x="445" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="cell102" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="24. Confirma el registro del evento" vertex="1">
+          <mxGeometry height="30" width="220" x="980" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="53ypX5E_zCF8JLcLY0au-1" edge="1" parent="1" source="cell47" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="580" />
+              <mxPoint x="440" y="601.25" />
+            </Array>
+            <mxPoint x="405" y="570.25" as="sourcePoint" />
+            <mxPoint x="405" y="601.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53ypX5E_zCF8JLcLY0au-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="530" />
+              <mxPoint x="440" y="551.25" />
+            </Array>
+            <mxPoint x="405" y="530" as="sourcePoint" />
+            <mxPoint x="405" y="551.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53ypX5E_zCF8JLcLY0au-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell88" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="1005" as="sourcePoint" />
+            <mxPoint x="405" y="1005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell90" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="21. Confirma la persistencia del cambio" vertex="1">
+          <mxGeometry height="30" width="220" x="480" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="2rfYKBLBc1okgZRuMAQt-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="810" />
+              <mxPoint x="440" y="831.25" />
+            </Array>
+            <mxPoint x="405" y="810" as="sourcePoint" />
+            <mxPoint x="405" y="831.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepción 1" id="cell330">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1010" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell182" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="930" width="1470" x="20" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="cell118" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="810" width="20" x="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cell126" parent="cell118" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="127" width="10" x="5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cell177" parent="cell118" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="cell119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cell120" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="810" width="160" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cell127" parent="cell120" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="155" width="10" x="75" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cell173" parent="cell120" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="cell121" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="810" width="160" x="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cell139" parent="cell121" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="cell142" parent="cell121" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="75" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="cell163" parent="cell121" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="155" width="10" x="75" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cell122" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="810" width="160" x="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cell143" parent="cell122" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="245" width="10" x="75" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="cell124" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="810" width="160" x="890" as="geometry" />
+        </mxCell>
+        <mxCell id="cell147" parent="cell124" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cell125" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Anaquel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="810" width="160" x="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="cell155" parent="cell125" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="75" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cell128" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="115.00000000000023" y="123.99999999999977" as="sourcePoint" />
+            <mxPoint x="375" y="123.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell129" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Selecciona un anaquel de la bodega y elige editarlo" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="cell132" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="172.00000000000023" as="sourcePoint" />
+            <mxPoint x="114.99999999999977" y="172.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell133" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2. Muestra la descripción vigente del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="cell136" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="114.99999999999977" y="208" as="sourcePoint" />
+            <mxPoint x="375" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell137" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3. Ingresa la nueva descripción y confirma" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cell140" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell139" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="385" y="240" as="sourcePoint" />
+            <mxPoint x="580" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell141" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4. Envía la nueva descripción del anaquel" vertex="1">
+          <mxGeometry height="30" width="205" x="375" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="cell144" edge="1" parent="1" source="cell142" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell143" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="580" y="285" as="sourcePoint" />
+            <mxPoint x="780" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell145" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5. Consulta la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="190" x="580" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cell148" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell147" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="330" as="sourcePoint" />
+            <mxPoint x="1180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell149" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="6. Obtiene la bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="755" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="cell152" edge="1" parent="1" source="cell147" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1070" y="380" as="sourcePoint" />
+            <mxPoint x="785" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell153" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="7. Retorna la bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="785" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cell156" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell155" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="420" as="sourcePoint" />
+            <mxPoint x="1380" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell157" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="8. Obtiene el anaquel de esa bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="830" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="cell160" edge="1" parent="1" source="cell155" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" width="80" x="-0.5474" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1375" y="465" as="sourcePoint" />
+            <mxPoint x="785" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell161" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Retorna el anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="840" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="cell164" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell163" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="510" as="sourcePoint" />
+            <mxPoint x="580" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell165" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Entrega la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="570" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="cell168" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="11. Verifica que la bodega y el anaquel existan" vertex="1">
+          <mxGeometry height="30" width="220" x="645" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="cell171" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="12. Verifica la descripción pero detecta que está vacía o supera los 255 caracteres" vertex="1">
+          <mxGeometry height="30" width="220" x="660" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="cell174" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell173" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="575" y="645" as="sourcePoint" />
+            <mxPoint x="380" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell175" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="13. Retorna el rechazo sin guardar cambios" vertex="1">
+          <mxGeometry height="30" width="220" x="367.5" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="cell178" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell177" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="690" as="sourcePoint" />
+            <mxPoint x="110" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell179" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="14. Solicita corregir la descripción" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="672" as="geometry" />
+        </mxCell>
+        <mxCell id="cell180" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-137: Editando anaquel" vertex="1">
+          <mxGeometry height="30" width="430" x="465" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="cell181" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 1" vertex="1">
+          <mxGeometry height="30" width="430" x="465" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQsF2PNEpuXL10kkbT-o-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="810" width="160" x="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="YbJShILUJkNDCVhgbQa--1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="541.37" />
+              <mxPoint x="620" y="562.62" />
+            </Array>
+            <mxPoint x="585" y="541.37" as="sourcePoint" />
+            <mxPoint x="585" y="562.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbJShILUJkNDCVhgbQa--2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="605" />
+              <mxPoint x="620" y="626.25" />
+            </Array>
+            <mxPoint x="585" y="605" as="sourcePoint" />
+            <mxPoint x="585" y="626.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepción 2" id="cell331">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1235" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell266" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="1155" width="1690" x="20" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="cell183" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1035" width="20" x="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cell191" parent="cell183" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cell261" parent="cell183" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="984.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell184" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cell185" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1035" width="160" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cell192" parent="cell185" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="155" width="10" x="75" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cell257" parent="cell185" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="75" y="939.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell186" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1035" width="160" x="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cell204" parent="cell186" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="cell228" parent="cell186" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="75" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cell250" parent="cell186" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="75" y="809.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell187" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1035" width="160" x="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cell208" parent="cell187" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="245" width="10" x="75" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="cell241" parent="cell187" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="129.5" width="10" x="75" y="700.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell189" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1035" width="160" x="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="cell212" parent="cell189" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cell190" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Anaquel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1035" width="160" x="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="cell220" parent="cell190" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="67.5" width="10" x="75" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cell242" parent="cell190" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="75" y="709.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell193" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="115" y="110" as="sourcePoint" />
+            <mxPoint x="375" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell194" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Selecciona un anaquel de la bodega y elige editarlo" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cell197" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="150" as="sourcePoint" />
+            <mxPoint x="115" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell198" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2. Muestra la descripción vigente del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="cell201" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="115" y="195" as="sourcePoint" />
+            <mxPoint x="375" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell202" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3. Ingresa la nueva descripción y confirma" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell205" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell204" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="385" y="240" as="sourcePoint" />
+            <mxPoint x="580" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell206" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4. Envía la nueva descripción del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="375" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="cell209" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell208" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="585" y="285" as="sourcePoint" />
+            <mxPoint x="780" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell210" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5. Consulta la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="190" x="585" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cell213" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell212" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="330" as="sourcePoint" />
+            <mxPoint x="1180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell214" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="6. Obtiene la bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="870" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cell217" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1175" y="374.9999999999998" as="sourcePoint" />
+            <mxPoint x="785" y="374.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell218" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="7. Retorna la bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="870" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cell221" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell220" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="420" as="sourcePoint" />
+            <mxPoint x="1380" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell222" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="8. Obtiene el anaquel de esa bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="970" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="cell225" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1375" y="465" as="sourcePoint" />
+            <mxPoint x="785" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell226" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Retorna el anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="970" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="cell229" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell228" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="510" as="sourcePoint" />
+            <mxPoint x="580" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell230" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Entrega la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="565" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="cell233" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="11. Verifica que la bodega y el anaquel existan" vertex="1">
+          <mxGeometry height="30" width="147.5" x="622.5" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="cell236" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="12. Verifica que la descripción no esté vacía ni supere los 255 caracteres" vertex="1">
+          <mxGeometry height="30" width="153.75" x="619.38" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="cell239" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="585" y="709.5" as="sourcePoint" />
+            <mxPoint x="775" y="709.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell240" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="13. Consulta si otro anaquel de la bodega tiene la misma descripción" vertex="1">
+          <mxGeometry height="30" width="220" x="570" y="670.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell243" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="783" y="725.5" as="sourcePoint" />
+            <mxPoint x="1373" y="725.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell244" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="14. Obtiene otro anaquel de la bodega con esa descripción, sin distinguir mayúsculas" vertex="1">
+          <mxGeometry height="30" width="530" x="790" y="689.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell247" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1375" y="774.5" as="sourcePoint" />
+            <mxPoint x="785" y="774.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell248" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="15. Retorna otro anaquel de la bodega con esa descripción" vertex="1">
+          <mxGeometry height="30" width="350" x="905" y="739.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell251" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell250" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="819.5" as="sourcePoint" />
+            <mxPoint x="580" y="819.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell252" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="16. Entrega el resultado de la verificación" vertex="1">
+          <mxGeometry height="30" width="205" x="578" y="779.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell255" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="17. Verifica la descripción y detecta que otro anaquel de la bodega ya la usa" vertex="1">
+          <mxGeometry height="30" width="140" x="630" y="859.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell258" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell257" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="575" y="949.5" as="sourcePoint" />
+            <mxPoint x="380" y="949.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell259" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="18. Retorna el aviso de duplicidad sin guardar cambios" vertex="1">
+          <mxGeometry height="30" width="190" x="380" y="899.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell262" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell261" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="994.5" as="sourcePoint" />
+            <mxPoint x="110" y="994.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell263" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="19. Informa la duplicidad y solicita ingresar un identificador distinto" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="954.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell264" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-137: Editando anaquel" vertex="1">
+          <mxGeometry height="30" width="430" x="585" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="cell265" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 2" vertex="1">
+          <mxGeometry height="30" width="430" x="585" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="hdovX9UNiR3DDfer69RC-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1035" width="160" x="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="75btPxMiAwXuYu8754LD-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="868.25" />
+              <mxPoint x="620" y="889.5" />
+            </Array>
+            <mxPoint x="585" y="868.25" as="sourcePoint" />
+            <mxPoint x="585" y="889.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75btPxMiAwXuYu8754LD-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="540" />
+              <mxPoint x="620" y="561.25" />
+            </Array>
+            <mxPoint x="585" y="540" as="sourcePoint" />
+            <mxPoint x="585" y="561.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75btPxMiAwXuYu8754LD-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="607" />
+              <mxPoint x="620" y="628.25" />
+            </Array>
+            <mxPoint x="585" y="607" as="sourcePoint" />
+            <mxPoint x="585" y="628.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepción 3" id="cell332">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="965" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cell328" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="885" width="1690" x="20" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="cell267" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="765" width="20" x="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cell275" parent="cell267" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="cell323" parent="cell267" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="cell268" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cell269" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="765" width="160" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cell287" parent="cell269" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="163" width="10" x="75" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="cell319" parent="cell269" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="62.5" width="10" x="75" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="cell270" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="765" width="160" x="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cell288" parent="cell270" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="67" width="10" x="75" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="cell312" parent="cell270" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="75" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cell271" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="765" width="160" x="700" as="geometry" />
+        </mxCell>
+        <mxCell id="cell292" parent="cell271" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="245" width="10" x="75" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="cell273" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="765" width="160" x="956" as="geometry" />
+        </mxCell>
+        <mxCell id="cell296" parent="cell273" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="62.5" width="10" x="75" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cell274" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Anaquel&lt;/u&gt;" vertex="1">
+          <mxGeometry height="765" width="160" x="1156" as="geometry" />
+        </mxCell>
+        <mxCell id="cell304" parent="cell274" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="62.5" width="10" x="75" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cell277" edge="1" parent="1" source="cell275" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="110" y="105" as="sourcePoint" />
+            <mxPoint x="375" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell278" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Selecciona un anaquel de la bodega y elige editarlo" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cell281" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="150" as="sourcePoint" />
+            <mxPoint x="115" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell282" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2. Muestra la descripción vigente del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="135" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="cell285" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="115" y="195" as="sourcePoint" />
+            <mxPoint x="375" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell286" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3. Ingresa la nueva descripción y confirma" vertex="1">
+          <mxGeometry height="30" width="220" x="133" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cell289" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="385.0000000000002" y="240" as="sourcePoint" />
+            <mxPoint x="575" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell290" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4. Envía la nueva descripción del anaquel" vertex="1">
+          <mxGeometry height="30" width="220" x="370" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cell293" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell292" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="585" y="284.9999999999998" as="sourcePoint" />
+            <mxPoint x="780" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell294" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5. Consulta la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="180" x="590" y="248.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell297" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell296" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="330" as="sourcePoint" />
+            <mxPoint x="1180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell298" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="6. Obtiene la bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="798" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="cell301" edge="1" parent="1" source="cell302" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="80" x="-0.5837" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1175" y="375" as="sourcePoint" />
+            <mxPoint x="785" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell302" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="7. Retorna la bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="810" y="352.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cell305" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cell304" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="785" y="420" as="sourcePoint" />
+            <mxPoint x="1380" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell306" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="8. Obtiene el anaquel de esa bodega" vertex="1">
+          <mxGeometry height="30" width="220" x="910" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="cell309" edge="1" parent="1" source="cell304" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="-0.3093" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1375" y="471" as="sourcePoint" />
+            <mxPoint x="785" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell310" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Retorna que el anaquel ya no existe en la bodega" vertex="1">
+          <mxGeometry height="30" width="460" x="798" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="cell313" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell312" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="775" y="509.9999999999998" as="sourcePoint" />
+            <mxPoint x="580" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell314" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Entrega la bodega y el anaquel" vertex="1">
+          <mxGeometry height="30" width="200" x="580" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="cell317" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="11. Verifica la bodega y el anaquel pero detecta que uno de ellos ya no existe" vertex="1">
+          <mxGeometry height="30" width="160" x="620" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="cell320" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell319" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="575" y="600" as="sourcePoint" />
+            <mxPoint x="380" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell321" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="12. Retorna el aviso sin guardar cambios" vertex="1">
+          <mxGeometry height="30" width="190" x="385" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="cell324" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cell323" value="">
+          <mxGeometry relative="1" width="80" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="645" as="sourcePoint" />
+            <mxPoint x="110" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell325" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="13. Informa que la bodega o el anaquel ya no existen y no guarda cambios" vertex="1">
+          <mxGeometry height="30" width="220" x="133" y="606.25" as="geometry" />
+        </mxCell>
+        <mxCell id="cell326" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-137: Editando anaquel" vertex="1">
+          <mxGeometry height="30" width="430" x="585" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="cell327" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 3" vertex="1">
+          <mxGeometry height="30" width="430" x="585" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cm9HRFwPr-8v1oGgORNg-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="765" width="160" x="1366" as="geometry" />
+        </mxCell>
+        <mxCell id="Ps4Y3kAmjgl8Ztfad-CX-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0429" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="541.88" />
+              <mxPoint x="620" y="563.13" />
+            </Array>
+            <mxPoint x="585" y="541.88" as="sourcePoint" />
+            <mxPoint x="585" y="563.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

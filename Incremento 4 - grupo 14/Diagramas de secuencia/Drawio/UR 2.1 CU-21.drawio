@@ -1,0 +1,386 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="Flujo General" id="FlujoGeneral">
+    <mxGraphModel dx="2359" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FlujoGeneral-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1138" width="1895" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-21: Editando datos de bodega&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="600" x="957.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1028" width="200" x="565" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-16" parent="FlujoGeneral-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="866" width="10" x="95" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1028" width="200" x="955" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-15" parent="FlujoGeneral-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="568" width="10" x="95" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1028" width="200" x="1345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-12" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="154" width="10" x="95" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-14" parent="FlujoGeneral-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="95" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1028" width="200" x="1645" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-11" parent="FlujoGeneral-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1028" width="200" x="1945" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-13" parent="FlujoGeneral-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-17" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="874" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="FlujoGeneral-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Accede al detalle de la&lt;br&gt;bodega y elige editarla">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="660" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="2. Muestra el formulario con el nombre,&lt;br&gt;la dirección y el estado vigentes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="596" as="sourcePoint" />
+            <mxPoint x="370" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Modifica el nombre o&lt;br&gt;la dirección y guarda">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="648" as="sourcePoint" />
+            <mxPoint x="660" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-21" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="4. Verificar que el nombre no&lt;br&gt;esté vacío">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="672" />
+              <mxPoint x="795" y="718" />
+            </Array>
+            <mxPoint x="670" y="672" as="sourcePoint" />
+            <mxPoint x="670" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Enviar el nombre, la dirección&lt;br&gt;y el estado de la bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="772" as="sourcePoint" />
+            <mxPoint x="1050" y="772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Solicitar actualizar la bodega,&lt;br&gt;leyendo antes sus datos vigentes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="824" as="sourcePoint" />
+            <mxPoint x="1440" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Obtener los datos vigentes y actualizar&lt;br&gt;el nombre, la dirección y el estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="876" as="sourcePoint" />
+            <mxPoint x="1740" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Retornar los datos&lt;br&gt;anteriores y los nuevos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="928" as="sourcePoint" />
+            <mxPoint x="1450" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="9. Entregar el resultado de la actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="966" as="sourcePoint" />
+            <mxPoint x="1060" y="966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-27" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar que la bodega exista y detecta que sí&lt;br&gt;existe y quedó actualizada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="990" />
+              <mxPoint x="1185" y="1036" />
+            </Array>
+            <mxPoint x="1060" y="990" as="sourcePoint" />
+            <mxPoint x="1060" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-28" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="11. Comparar los datos anteriores con los&lt;br&gt;nuevos y armar el detalle de los cambios">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="1062" />
+              <mxPoint x="1185" y="1108" />
+            </Array>
+            <mxPoint x="1060" y="1062" as="sourcePoint" />
+            <mxPoint x="1060" y="1108" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="12. Solicitar registrar la edición de la bodega en&lt;br&gt;la auditoría, después de confirmar la operación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="1162" as="sourcePoint" />
+            <mxPoint x="1440" y="1162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Insertar el evento con el valor anterior y el&lt;br&gt;nuevo de cada campo modificado, el usuario y la fecha">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1214" as="sourcePoint" />
+            <mxPoint x="2040" y="1214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="14. Confirmar el registro del evento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2040" y="1252" as="sourcePoint" />
+            <mxPoint x="1450" y="1252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="15. Confirmar el registro de la auditoría">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="1290" as="sourcePoint" />
+            <mxPoint x="1060" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="16. Retornar la confirmación de la bodega actualizada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1328" as="sourcePoint" />
+            <mxPoint x="670" y="1328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FlujoGeneral-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="17. Muestra la bodega con sus datos&lt;br&gt;actualizados; el código no cambia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1380" as="sourcePoint" />
+            <mxPoint x="370" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 1" id="Excepcion1">
+    <mxGraphModel dx="1942" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="516" width="1895" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-21: Editando datos de bodega&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="957.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="826" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="406" width="200" x="565" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-11" parent="Excepcion1-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="244" width="10" x="95" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="406" width="200" x="955" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="406" width="200" x="1345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="406" width="200" x="1645" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="406" width="200" x="1945" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-12" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="252" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion1-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Accede al detalle de la&lt;br&gt;bodega y elige editarla">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="660" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="2. Muestra el formulario con el nombre,&lt;br&gt;la dirección y el estado vigentes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="596" as="sourcePoint" />
+            <mxPoint x="370" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Deja el nombre vacío y guarda">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="634" as="sourcePoint" />
+            <mxPoint x="660" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-16" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="4. Verificar que el nombre&lt;br&gt;no esté vacío y detecta que sí lo está&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="658" />
+              <mxPoint x="795" y="704" />
+            </Array>
+            <mxPoint x="670" y="658" as="sourcePoint" />
+            <mxPoint x="670" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion1-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="5. Solicita completar el&lt;br&gt;nombre y no guarda cambios">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="758" as="sourcePoint" />
+            <mxPoint x="370" y="758" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 2" id="Excepcion2">
+    <mxGraphModel dx="1942" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Excepcion2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="872" width="1895" x="310" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;CU-21: Editando datos de bodega&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Excepción 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="957.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="500" as="sourcePoint" />
+            <mxPoint x="365" y="1182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="762" width="200" x="565" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-14" parent="Excepcion2-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="600" width="10" x="95" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="762" width="200" x="955" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-13" parent="Excepcion2-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="316" width="10" x="95" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="762" width="200" x="1345" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-12" parent="Excepcion2-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="154" width="10" x="95" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="762" width="200" x="1645" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-11" parent="Excepcion2-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="95" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="762" width="200" x="1945" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-15" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="608" width="10" x="360" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="Excepcion2-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Accede al detalle de la&lt;br&gt;bodega y elige editarla">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="544" as="sourcePoint" />
+            <mxPoint x="660" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="2. Muestra el formulario con el nombre,&lt;br&gt;la dirección y el estado vigentes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="596" as="sourcePoint" />
+            <mxPoint x="370" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Modifica el nombre o&lt;br&gt;la dirección y guarda">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="648" as="sourcePoint" />
+            <mxPoint x="660" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-19" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="4. Verificar que el nombre no&lt;br&gt;esté vacío">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="795" y="672" />
+              <mxPoint x="795" y="718" />
+            </Array>
+            <mxPoint x="670" y="672" as="sourcePoint" />
+            <mxPoint x="670" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Enviar el nombre, la dirección&lt;br&gt;y el estado de la bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="772" as="sourcePoint" />
+            <mxPoint x="1050" y="772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Solicitar actualizar la bodega,&lt;br&gt;leyendo antes sus datos vigentes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="824" as="sourcePoint" />
+            <mxPoint x="1440" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Obtener los datos vigentes y actualizar&lt;br&gt;el nombre, la dirección y el estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="876" as="sourcePoint" />
+            <mxPoint x="1740" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="8. Retornar que no se actualizó&lt;br&gt;ninguna fila: la bodega no existe">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="928" as="sourcePoint" />
+            <mxPoint x="1450" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="9. Entregar el resultado de la actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="966" as="sourcePoint" />
+            <mxPoint x="1060" y="966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-25" edge="1" parent="1" style="html=1;verticalAlign=middle;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;" value="10. Verificar el resultado y&lt;br&gt;detecta que la bodega no existe">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1185" y="990" />
+              <mxPoint x="1185" y="1036" />
+            </Array>
+            <mxPoint x="1060" y="990" as="sourcePoint" />
+            <mxPoint x="1060" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="11. Retornar el aviso de registro no encontrado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1076" as="sourcePoint" />
+            <mxPoint x="670" y="1076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Excepcion2-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;endFill=1;" value="12. Informa que no se encontró la bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1114" as="sourcePoint" />
+            <mxPoint x="370" y="1114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
