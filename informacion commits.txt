@@ -223,6 +223,7 @@ Lenin Reyes con la cuenta avisave realizo:
 -Diagramas de secuencias drawio
 - Arbol de navegacion incremento 4 drawio
 - diagramas de caso de uso incremento 4 drawio
+- Subio anexos presentacion incremento 4 pptx
 
 Silvio Villagra con la cuenta JFK98 realizo:
 -Actualizo arbol de navegacion drawio e imagenes incremento 3
